@@ -40,13 +40,13 @@ Fort Wayne, IN 46809'''
     weight = 4
 
   [[menu.main]]
-    name = 'Social Pages'
+    name = 'Resources'
     url = '#'
     weight = 5
 
   [[menu.main]]
     name = 'Facebook'
-    parent = 'Social Pages'
+    parent = 'Resources'
     url = 'https://www.facebook.com/groups/indianvillagefw'
     weight = 1
     [menu.main.params]
@@ -54,41 +54,37 @@ Fort Wayne, IN 46809'''
 
   [[menu.main]]
     name = 'NextDoor'
-    parent = 'Social Pages'
+    parent = 'Resources'
     url = 'https://nextdoor.com/'
     weight = 2
     [menu.main.params]
       external = true
 
   [[menu.main]]
-    name = 'Community Links'
-    url = '#'
-    weight = 6
-
-  [[menu.main]]
     name = 'Public Safety'
-    parent = 'Community Links'
+    parent = 'Resources'
     url = '/public-safety/'
-    weight = 1
+    weight = 3
 
   [[menu.main]]
     name = 'Local News Stories'
-    parent = 'Community Links'
+    parent = 'Resources'
     url = '/local-news/'
-    weight = 2
+    weight = 4
 
   [[menu.main]]
     name = 'Poco Pool'
-    parent = 'Community Links'
+    parent = 'Resources'
     url = 'https://pocopool.org/'
-    weight = 3
+    weight = 5
     [menu.main.params]
       external = true
 
   [[menu.main]]
     name = 'Archive'
+    parent = 'Resources'
     url = 'https://archive.ivcafw.org/'
-    weight = 7
+    weight = 6
     [menu.main.params]
       external = true
 
