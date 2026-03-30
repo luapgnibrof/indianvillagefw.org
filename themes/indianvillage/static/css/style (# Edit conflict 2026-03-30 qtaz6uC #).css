@@ -486,8 +486,8 @@ figure.medium {
 /* === Responsive === */
 @media (max-width: 768px) {
   .hero { height: 220px; }
-  .hero-title { font-size: 1.8rem; }
-  .hero-subtitle { font-size: 1rem; }
+  .hero-tagline { font-size: 1.6rem; }
+  .hero-subtitle { font-size: 0.9rem; }
   .menu-toggle { display: block; }
   .main-nav { display: none; width: 100%; }
   .main-nav.active { display: block; }
