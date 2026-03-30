@@ -61,10 +61,16 @@ Fort Wayne, IN 46809'''
     weight = 5
 
   [[menu.main]]
+    name = 'Public Safety'
+    parent = 'Community Links'
+    url = '/public-safety/'
+    weight = 1
+
+  [[menu.main]]
     name = 'Local News Stories'
     parent = 'Community Links'
     url = '/local-news/'
-    weight = 1
+    weight = 2
 
   [[menu.main]]
     name = 'Poco Pool'
