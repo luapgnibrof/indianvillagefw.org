@@ -3,4 +3,5 @@ resources/
 data/
 .hugo_build.lock
 *.pdf
+!themes/indianvillage/static/docs/*.pdf
 .github/pr-body.md
