@@ -31,24 +31,8 @@ Fort Wayne, IN 46809'''
 
   [[menu.main]]
     name = 'Newsletters'
-    url = '#'
+    url = '/newsletters/'
     weight = 3
-
-  [[menu.main]]
-    name = 'June 2022'
-    parent = 'Newsletters'
-    url = 'https://us5.campaign-archive.com/?u=3f227c81950b3c12a66ed4dcc&id=ed53f6f583'
-    weight = 1
-    [menu.main.params]
-      external = true
-
-  [[menu.main]]
-    name = 'Past Issues'
-    parent = 'Newsletters'
-    url = 'https://us5.campaign-archive.com/home/?u=3f227c81950b3c12a66ed4dcc&id=1b04d054c6'
-    weight = 2
-    [menu.main.params]
-      external = true
 
   [[menu.main]]
     name = 'Social Pages'
