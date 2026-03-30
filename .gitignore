@@ -5,3 +5,4 @@ data/waynedale_feed.json
 *.pdf
 !themes/indianvillage/static/docs/*.pdf
 .github/pr-body.md
+.github/pr-body-projects.md

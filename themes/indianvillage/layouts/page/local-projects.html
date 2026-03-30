@@ -30,6 +30,12 @@
     </header>
 
     <div class="project-body">
+      {{ with .latest_update }}
+      <div class="project-latest-update">
+        <strong>Latest Update:</strong> {{ . }}
+      </div>
+      {{ end }}
+
       <p>{{ .summary }}</p>
 
       <h3>Impact on Our Neighborhood</h3>

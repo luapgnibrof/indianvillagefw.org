@@ -1,0 +1,38 @@
+name: Check for project updates
+
+on:
+  schedule:
+    # Runs every Wednesday at 9am Eastern (13:00 UTC)
+    - cron: "0 13 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check-projects:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Check for project updates
+        id: check
+        continue-on-error: true
+        run: uv run .github/scripts/check-projects.py
+
+      - name: Create pull request
+        if: steps.check.outcome == 'success'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update local project construction status (automated)"
+          branch: auto/project-updates
+          delete-branch: true
+          title: "Local project updates found"
+          body-path: .github/pr-body-projects.md
+          labels: local-projects
