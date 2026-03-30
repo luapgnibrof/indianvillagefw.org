@@ -25,9 +25,39 @@ Fort Wayne, IN 46809'''
     weight = 1
 
   [[menu.main]]
-    name = 'About Us'
-    url = '/about/'
+    name = 'About'
+    url = '#'
     weight = 2
+
+  [[menu.main]]
+    name = 'About Us'
+    parent = 'About'
+    url = '/about/'
+    weight = 1
+
+  [[menu.main]]
+    name = 'New Residents'
+    parent = 'About'
+    url = '/welcome/'
+    weight = 2
+
+  [[menu.main]]
+    name = 'FAQ'
+    parent = 'About'
+    url = '/faq/'
+    weight = 3
+
+  [[menu.main]]
+    name = 'Documents'
+    parent = 'About'
+    url = '/documents/'
+    weight = 4
+
+  [[menu.main]]
+    name = 'Neighborhood Map'
+    parent = 'About'
+    url = '/map/'
+    weight = 5
 
   [[menu.main]]
     name = 'History'
@@ -35,9 +65,27 @@ Fort Wayne, IN 46809'''
     weight = 3
 
   [[menu.main]]
-    name = 'Newsletters'
-    url = '/newsletters/'
+    name = 'News'
+    url = '#'
     weight = 4
+
+  [[menu.main]]
+    name = 'Newsletters'
+    parent = 'News'
+    url = '/newsletters/'
+    weight = 1
+
+  [[menu.main]]
+    name = 'Financial Reports'
+    parent = 'News'
+    url = '/financial-reports/'
+    weight = 2
+
+  [[menu.main]]
+    name = 'Local News Stories'
+    parent = 'News'
+    url = '/local-news/'
+    weight = 3
 
   [[menu.main]]
     name = 'Resources'
@@ -45,10 +93,16 @@ Fort Wayne, IN 46809'''
     weight = 5
 
   [[menu.main]]
+    name = 'Public Safety'
+    parent = 'Resources'
+    url = '/public-safety/'
+    weight = 1
+
+  [[menu.main]]
     name = 'Facebook'
     parent = 'Resources'
     url = 'https://www.facebook.com/groups/indianvillagefw'
-    weight = 1
+    weight = 2
     [menu.main.params]
       external = true
 
@@ -56,27 +110,15 @@ Fort Wayne, IN 46809'''
     name = 'NextDoor'
     parent = 'Resources'
     url = 'https://nextdoor.com/'
-    weight = 2
+    weight = 3
     [menu.main.params]
       external = true
-
-  [[menu.main]]
-    name = 'Public Safety'
-    parent = 'Resources'
-    url = '/public-safety/'
-    weight = 3
-
-  [[menu.main]]
-    name = 'Local News Stories'
-    parent = 'Resources'
-    url = '/local-news/'
-    weight = 4
 
   [[menu.main]]
     name = 'Poco Pool'
     parent = 'Resources'
     url = 'https://pocopool.org/'
-    weight = 5
+    weight = 4
     [menu.main.params]
       external = true
 
@@ -84,7 +126,7 @@ Fort Wayne, IN 46809'''
     name = 'Archive'
     parent = 'Resources'
     url = 'https://archive.ivcafw.org/'
-    weight = 6
+    weight = 5
     [menu.main.params]
       external = true
 
