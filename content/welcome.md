@@ -17,15 +17,17 @@ Learn more on our [History](/history/) page.
 
 ## The Community Association
 
-The **Indian Village Community Association (IVCA)** is a voluntary neighborhood association run by an elected Board of Governors. We are not a mandatory HOA — membership and dues are optional.
+The **Indian Village Community Association (IVCA)** is a voluntary neighborhood association run by an elected Board of Directors under [Indiana Code 32-25.5](https://iga.in.gov/laws/2024/ic/titles/32#32-25.5). We are not a mandatory HOA — membership and dues ($20/year) are optional, the Board cannot impose fees or liens on private property, and no association decisions affect non-members.
 
 The IVCA works to:
-- Preserve the historic character of the neighborhood
+- Promote safety and organize community events
 - Keep residents informed through the website, newsletters, and social media
 - Maintain the entrance monuments and common areas
-- Advocate for neighborhood interests with the City of Fort Wayne
+- Facilitate communication and assistance among residents and the surrounding community
 
-To join, pay voluntary dues, or just introduce yourself: [email the board](mailto:board@indianvillagefw.org).
+The association is governed by the [IVCA Constitution and Bylaws (2024)](/docs/ivca-2024-constitution-and-bylaws.pdf), adopted by the membership in January 2024 and filed with the Allen County Recorder.
+
+To join, pay dues, or just introduce yourself: [email the board](mailto:board@indianvillagefw.org).
 
 ---
 
@@ -80,7 +82,7 @@ To join, pay voluntary dues, or just introduce yourself: [email the board](mailt
 
 ## Important Documents
 
-New to the neighborhood and want to understand the covenants, bylaws, or plat maps? Visit our [Documents](/documents/) page for the full archive, or check the [FAQ](/faq/) for quick answers to common questions.
+New to the neighborhood? The [IVCA Constitution and Bylaws (2024)](/docs/ivca-2024-constitution-and-bylaws.pdf) is the association's governing document — it covers membership, dues, the Board, elections, and meetings. For historical covenants, plat maps, and more, visit the [Documents](/documents/) page. Check the [FAQ](/faq/) for quick answers to common questions.
 
 ---
 
