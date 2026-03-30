@@ -1,0 +1,38 @@
+name: Check for new local news articles
+
+on:
+  schedule:
+    # Runs every Monday at 8am Eastern (12:00 UTC)
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Run news fetcher
+        id: fetch
+        continue-on-error: true
+        run: uv run .github/scripts/fetch-news.py
+
+      - name: Create pull request
+        if: steps.fetch.outcome == 'success'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add new local news articles (automated)"
+          branch: auto/local-news
+          delete-branch: true
+          title: "New local news articles found"
+          body-path: .github/pr-body.md
+          labels: local-news
