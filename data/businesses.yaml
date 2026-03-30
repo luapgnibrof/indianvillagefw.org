@@ -1,0 +1,62 @@
+# Indian Village Neighborhood Business Directory
+#
+# To add a business, add an entry under the appropriate category.
+# Each business needs: name, description. Optional: phone, website, address, resident.
+# Set resident: true if the owner lives in Indian Village.
+#
+# Example:
+#   - name: "Jane's Lawn Care"
+#     description: "Full-service lawn care and landscaping"
+#     phone: "260-555-1234"
+#     website: "https://example.com"
+#     address: "1234 Hiawatha Blvd."
+#     resident: true
+
+categories:
+  - name: "Construction & Home Improvement"
+    slug: "construction"
+    businesses: []
+
+  - name: "Cleaning"
+    slug: "cleaning"
+    businesses: []
+
+  - name: "Food Services"
+    slug: "food"
+    businesses: []
+
+  - name: "Gardening & Landscaping"
+    slug: "gardening"
+    businesses: []
+
+  - name: "Health & Beauty"
+    slug: "health"
+    businesses: []
+
+  - name: "Information Technology"
+    slug: "it"
+    businesses: []
+
+  - name: "Legal Services"
+    slug: "legal"
+    businesses: []
+
+  - name: "Maintenance & Repair"
+    slug: "maintenance"
+    businesses: []
+
+  - name: "Pet Services"
+    slug: "pets"
+    businesses: []
+
+  - name: "Personal Services"
+    slug: "personal"
+    businesses: []
+
+  - name: "Automobile"
+    slug: "auto"
+    businesses: []
+
+  - name: "General"
+    slug: "general"
+    businesses: []

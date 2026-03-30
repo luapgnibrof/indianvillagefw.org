@@ -1,6 +1,6 @@
 public/
 resources/
-data/
+data/waynedale_feed.json
 .hugo_build.lock
 *.pdf
 !themes/indianvillage/static/docs/*.pdf
