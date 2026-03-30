@@ -11,6 +11,8 @@ Indian Village is listed on the **National Register of Historic Places**, the na
 
 ## "Fort Wayne's Super-Subdivision"
 
+{{< figure src="/images/history/brochure-cover.jpg" alt="Cover of the original Indian Village promotional brochure" caption="Cover of the original promotional brochure by the City and Suburban Building Company, c. 1927." class="float-right" >}}
+
 In July 1925, the City and Suburban Building Company of Fort Wayne purchased a tract of land that had served since 1864 as the Allen County Farm for the Poor as well as the County's Orphanage. The site was adjacent to Bluffton Road and Foster Park, important elements of the 1912 City Beautiful plan for the Fort Wayne Park and Boulevard system. The company began planning a new residential development called Indian Village.
 
 The original promotional brochure described it as "the greatest single real estate enterprise in the history of this city, involving more ground, more money to purchase the naked land, and more money to develop, than any individual real estate enterprise of its kind." Two hundred acres of ground comprised the subdivision, with approximately seven miles of unusually wide boulevards and streets, leaving approximately 700 extra-large homesites.
@@ -31,11 +33,18 @@ Civil engineer A. K. Hofer of Fort Wayne collaborated with Sheridan on the Gener
 
 A newspaper article of the time stated that Hiawatha Boulevard "is destined to be one of Fort Wayne's finest residential thoroughfares," commenting extensively about the combined widths of the thoroughfares and the building line that created a distance of 200 feet between houses on opposite sides of the street.
 
+{{< figure src="/images/history/boulevard-cars.jpg" alt="Automobiles lined up on the wide Indian Village boulevard, c. 1927" caption="Automobiles parked abreast on the wide Indian Village boulevards during early development, c. 1927. From the original promotional brochure." >}}
+
 ### The Native American Theme
 
-This modern Indian Village was wrapped in a mythical setting inspired by Henry Wadsworth Longfellow's epic poem "Song of Hiawatha," based on the legends of the Ojibway Indians. The poem's Native American names appear as the names of many of the village streets. Elaborate brick and stone entry markers with a beautifully carved Native American with an elaborate headdress define the main entry into the subdivision. A scenic grouping of concrete teepees is located on the main esplanade. These features are based on 1920s popular culture images of Plains Indians.
+This modern Indian Village was wrapped in a mythical setting inspired by Henry Wadsworth Longfellow's epic poem "Song of Hiawatha," based on the legends of the Ojibway Indians. The poem's Native American names appear as the names of many of the village streets. Elaborate brick and stone entry markers with a beautifully carved Native American with an elaborate headdress define the main entry into the subdivision. A scenic grouping of concrete teepees once stood on the main esplanade, though they were later removed due to deterioration. These features are based on 1920s popular culture images of Plains Indians.
 
 The City and Suburban Building Company used the Native American theme to market Indian Village as a lifestyle, a return to a quieter time, separated from the dirt and noise of the central city and the presence of smoke-belching factories. Located at the very edge of the city limits, village residents of the 1920s and 1930s nevertheless had access to three modes of modern transportation to carry them downtown to work or to shop — private automobiles, buses, and interurban rail cars. Promotional materials said that after trips to the hustle and bustle of downtown, residents could expect that "in the Indian Village you feel all the freedom and happiness of the great outdoors where the clear, clean fresh air, invigorating sunshine, and true restfulness prevail."
+
+{{< gallery class="cols-2" >}}
+{{< figure src="/images/history/teepees-park.jpg" alt="Concrete teepees on the Indian Village esplanade, 2008" caption="Concrete teepees on the main esplanade under mature trees, 2008. Since removed." credit="Photo: kristinafh / CC BY 2.0" >}}
+{{< figure src="/images/history/teepee-closeup.jpg" alt="Close-up of a concrete teepee in Indian Village" caption="A concrete teepee with neighborhood homes visible behind it, 2008." credit="Photo: kristinafh / CC BY 2.0" >}}
+{{< /gallery >}}
 
 #### Street Names and Their Meanings
 
@@ -83,13 +92,19 @@ Situated conveniently in the heart of Indian Village, the City and Suburban Buil
 
 ### High Ground and Superb Infrastructure
 
+{{< figure src="/images/history/sewer-pipes.jpg" alt="Man standing inside a massive sewer pipe during Indian Village construction, c. 1927" caption="A man stands inside one of the massive sewer pipes during Indian Village infrastructure construction, c. 1927. From the original promotional brochure." class="float-right" >}}
+
 The promotional materials made much of Indian Village's elevation — at 790.90 feet above sea level, it stood 37 feet higher than the Allen County Courthouse. High ground meant better natural drainage, and the subdivision's sewer system was built to the highest standards. In a 1944 address to the Fort Wayne Board of Realtors, City Sewer Engineer James R. Hardendorf stated: "There is only one sewer district in Fort Wayne in which no remedial measures are needed. That district is — Indian Village."
 
 The point where the sewer mains came closest to the surface was fourteen feet, and all sewers were more than ample in size — far exceeding the older systems in other parts of the city, much of which dated from the 1890s and earlier.
 
+{{< figure src="/images/history/road-construction.jpg" alt="Road construction machinery building Indian Village boulevards, c. 1927" caption="Heavy machinery laying reinforced concrete streets during Indian Village construction, c. 1927. From the original promotional brochure." >}}
+
 ### Foster Park
 
 With Foster Park just across the river, connected by a suspension foot-bridge, Indian Village residents enjoyed some of the finest recreational opportunities in Fort Wayne. Tennis courts, the new Municipal Golf Course, picnic grounds, a bridle path winding for miles along the river, outdoor ovens and tables, and a sheltered pavilion with modern facilities were all within a short walk. Both the Fort Wayne Country Club and the Orchard Ridge Country Club were just a few minutes' drive over good roads. The 1930 booklet envisioned that "boating and canoeing will also be one of the joys some of these days of the residents of Indian Village."
+
+{{< figure src="/images/history/st-marys-river.jpg" alt="The St. Mary's River as seen from Indian Village" caption="The St. Mary's River from the Indian Village side, 2008." credit="Photo: kristinafh / CC BY 2.0" >}}
 
 ---
 
@@ -122,6 +137,8 @@ Indian Village continues to provide a haven from the tribulations of today's bus
 ---
 
 ## Notable Homes of the Historic District
+
+{{< figure src="/images/history/tudor-home.jpg" alt="A Tudor Revival home under construction in Indian Village, c. 1929" caption="A Tudor Revival home nearing completion in Indian Village, c. 1929. From the original promotional brochure." class="float-right" >}}
 
 The homes below were highlighted in the City of Fort Wayne's Historic District brochure for their architectural significance. They represent the range of styles built in Indian Village from the late 1920s through the mid-1950s — from the period revivals of the early subdivision to the modern designs of the post-war era.
 

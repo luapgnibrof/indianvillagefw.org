@@ -336,6 +336,102 @@ img { max-width: 100%; height: auto; }
 .footer-note { color: #94a3b8; font-size: 0.8rem; margin-bottom: 0.25rem; }
 .footer-copy { color: #64748b; font-size: 0.75rem; }
 
+/* === Hero Section === */
+.hero {
+  position: relative;
+  height: 340px;
+  background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(30,58,95,0.55) 0%, rgba(30,58,95,0.8) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+.hero-title {
+  color: #fff;
+  font-size: 2.8rem;
+  margin: 0;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.hero-subtitle {
+  color: rgba(255,255,255,0.9);
+  font-size: 1.2rem;
+  margin: 0.25rem 0 0;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+/* === Figures & Images === */
+figure {
+  margin: 1.5rem 0;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+figcaption {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.4;
+  border-top: 1px solid #eee;
+}
+.photo-credit {
+  color: #999;
+  font-size: 0.78rem;
+  font-style: italic;
+}
+figure.float-right {
+  float: right;
+  max-width: 320px;
+  margin: 0.5rem 0 1rem 1.5rem;
+}
+figure.float-left {
+  float: left;
+  max-width: 320px;
+  margin: 0.5rem 1.5rem 1rem 0;
+}
+figure.small {
+  max-width: 400px;
+}
+figure.medium {
+  max-width: 600px;
+}
+
+/* === Gallery === */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.gallery figure {
+  margin: 0;
+}
+.gallery.cols-2 { grid-template-columns: repeat(2, 1fr); }
+.gallery.cols-3 { grid-template-columns: repeat(3, 1fr); }
+
+/* === Photo Credits Block === */
+.photo-credits {
+  font-size: 0.8rem;
+  color: #888;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 2rem;
+  padding-top: 0.75rem;
+}
+
 /* === Pages (About, Local News) === */
 .page-content { max-width: 800px; }
 .page-content h1 { margin-bottom: 1rem; }
@@ -385,6 +481,9 @@ img { max-width: 100%; height: auto; }
 
 /* === Responsive === */
 @media (max-width: 768px) {
+  .hero { height: 220px; }
+  .hero-title { font-size: 1.8rem; }
+  .hero-subtitle { font-size: 1rem; }
   .menu-toggle { display: block; }
   .main-nav { display: none; width: 100%; }
   .main-nav.active { display: block; }
@@ -397,11 +496,14 @@ img { max-width: 100%; height: auto; }
   .action-buttons { flex-direction: column; }
   .post-summary { flex-direction: column; gap: 0.5rem; }
   .post-date { flex-direction: row; gap: 0.5rem; }
+  figure.float-right, figure.float-left { float: none; max-width: 100%; margin: 1rem 0; }
+  .gallery { grid-template-columns: 1fr; }
+  .gallery.cols-2, .gallery.cols-3 { grid-template-columns: 1fr; }
 }
 
 /* === Print === */
 @media print {
-  .site-header, .sidebar, .skip-link, .action-buttons,
+  .site-header, .sidebar, .skip-link, .action-buttons, .hero,
   .newsletter-signup, .pagination, .site-footer { display: none; }
   .site-wrapper { display: block; max-width: 100%; padding: 0; }
   body { color: #000; background: #fff; font-size: 12pt; }

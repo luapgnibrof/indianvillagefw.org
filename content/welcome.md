@@ -9,6 +9,8 @@ Whether you just moved in or you're thinking about it — welcome! Here's everyt
 
 ## About the Neighborhood
 
+{{< figure src="/images/community/wendigo-wenonah-winter.jpg" alt="Winter scene at the corner of Wendigo Lane and Wenonah in Indian Village" caption="The corner of Wendigo Lane and Wenonah in winter, showing the neighborhood's decorative street lamps and tree-lined streets." credit="Photo: Nyttend / Public Domain" >}}
+
 Indian Village is a **National Register Historic District** in the Waynedale area of southwest Fort Wayne. Originally developed in 1925 by the City and Suburban Building Company, the neighborhood features wide, curving, tree-lined boulevards designed by landscape architect Lawrence V. Sheridan. Streets are named from Longfellow's poem "Song of Hiawatha." Nearly 500 homes span architectural styles from 1920s Tudor Revival to 1950s Mid-Century Modern.
 
 Learn more on our [History](/history/) page.
@@ -49,6 +51,11 @@ To join, pay dues, or just introduce yourself: [email the board](mailto:board@in
 ---
 
 ## Parks and Recreation
+
+{{< gallery class="cols-2" >}}
+{{< figure src="/images/community/poco-5k.jpg" alt="Runners at the annual Poco 5K Run/Walk in Indian Village Park" caption="The annual Poco 5K Run/Walk at Indian Village Park, 2025." credit="Photo: Erika Erksome" >}}
+{{< figure src="/images/community/christmas-trolley.jpg" alt="The Christmas Trolley visits Indian Village with Santa and Mrs. Claus" caption="The Christmas Trolley brings Santa and Mrs. Claus through Indian Village, 2025." credit="Photo: Gayla McMurray" >}}
+{{< /gallery >}}
 
 - **[Indian Village Park](https://www.cityoffortwayne.in.gov/Facilities/Facility/Details/Indian-Village-Park-64)** — 1701 Bluffton Road. A 10-acre city park within the neighborhood since 1926, featuring the Sears Pavilion (available for rental), playground, picnic tables, and direct access to the 24-mile Rivergreenway trail. Connected to Foster Park by a pedestrian footbridge across the St. Mary's River.
 

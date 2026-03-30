@@ -1,0 +1,14 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $credit := .Get "credit" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+<figure{{ with $class }} class="{{ . }}"{{ end }}>
+  <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy">
+  {{- if or $caption $credit }}
+  <figcaption>
+    {{- with $caption }}{{ . }}{{ end -}}
+    {{- with $credit }}<span class="photo-credit"> {{ . }}</span>{{ end -}}
+  </figcaption>
+  {{- end }}
+</figure>

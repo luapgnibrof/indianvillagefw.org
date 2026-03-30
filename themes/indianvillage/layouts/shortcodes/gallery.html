@@ -1,0 +1,4 @@
+{{- $class := .Get "class" | default "" -}}
+<div class="gallery{{ with $class }} {{ . }}{{ end }}">
+  {{ .Inner }}
+</div>
