@@ -1,0 +1,73 @@
+{{ define "main" }}
+<div class="page-content local-projects">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $data := hugo.Data.projects }}
+
+  {{/* Quick-nav jump links */}}
+  <nav class="project-nav" aria-label="Jump to project">
+    {{ range $data.projects }}
+    <a href="#{{ .slug }}" class="project-jump">
+      <span class="project-jump-status status-{{ .status }}">{{ .status_label }}</span>
+      {{ .name }}
+    </a>
+    {{ end }}
+  </nav>
+
+  {{ range $data.projects }}
+  <article class="project-card" id="{{ .slug }}">
+    <header class="project-header">
+      <div class="project-title-row">
+        <h2>{{ .name }}</h2>
+        <span class="project-status status-{{ .status }}">{{ .status_label }}</span>
+      </div>
+      <div class="project-meta">
+        <span class="project-agency">{{ .agency }}</span>
+        <span class="project-timeline">{{ .timeline }}</span>
+        {{ with .funding }}<span class="project-funding">{{ . }}</span>{{ end }}
+      </div>
+    </header>
+
+    <div class="project-body">
+      <p>{{ .summary }}</p>
+
+      <h3>Impact on Our Neighborhood</h3>
+      <p>{{ .neighborhood_impact }}</p>
+
+      {{ with .features }}
+      <h3>Project Features</h3>
+      <ul class="project-features">
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+      {{ end }}
+
+      {{ with .key_dates }}
+      <h3>Key Dates</h3>
+      <div class="project-timeline-list">
+        {{ range . }}
+        <div class="timeline-item">
+          <span class="timeline-date">{{ .date }}</span>
+          <span class="timeline-event">{{ .event }}</span>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ with .links }}
+      <div class="project-links">
+        <h3>Official Links</h3>
+        {{ range . }}
+        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <footer class="project-footer">
+      <span class="project-updated">Last updated {{ .updated }}</span>
+    </footer>
+  </article>
+  {{ end }}
+</div>
+{{ end }}

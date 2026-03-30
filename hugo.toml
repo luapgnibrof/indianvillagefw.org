@@ -88,6 +88,12 @@ Fort Wayne, IN 46809'''
     weight = 3
 
   [[menu.main]]
+    name = 'Local Projects'
+    parent = 'News'
+    url = '/local-projects/'
+    weight = 4
+
+  [[menu.main]]
     name = 'Resources'
     url = '#'
     weight = 5
