@@ -1,3 +1,17 @@
 <footer class="site-footer">
-  <p>This site is run entirely by individual neighborhood volunteers living and working in Indian Village, and is not affiliated with any organization.</p>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <strong>Indian Village Community Association</strong>
+      <span class="footer-address">2310 Indian Village Blvd. &middot; Fort Wayne, IN 46809</span>
+    </div>
+    <div class="footer-contact">
+      <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+    </div>
+    <div class="footer-note">
+      This site is maintained by volunteers on the IVCA Board.
+    </div>
+    <div class="footer-copy">
+      &copy; {{ now.Year }} Indian Village Community Association
+    </div>
+  </div>
 </footer>
