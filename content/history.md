@@ -7,13 +7,53 @@ Indian Village is listed on the **National Register of Historic Places**, the na
 
 <a href="/docs/indian-village-historic-district.pdf" class="btn" target="_blank">Download the Historic District Brochure (PDF)</a>
 
-## Origins
+---
+
+## "Fort Wayne's Super-Subdivision"
 
 In July 1925, the City and Suburban Building Company of Fort Wayne purchased a tract of land that had served since 1864 as the Allen County Farm for the Poor as well as the County's Orphanage. The site was adjacent to Bluffton Road and Foster Park, important elements of the 1912 City Beautiful plan for the Fort Wayne Park and Boulevard system. The company began planning a new residential development called Indian Village.
 
-Lawrence V. Sheridan, a prominent Indiana landscape architect and city planner, was hired for the planning and beautifying of the new addition as an automobile-oriented suburb. For Indian Village, Sheridan utilized the rolling topography to give graceful sweeps and curves to the broad boulevards, creating a series of arcing streets centered on a broad esplanade. Lots were designed to retain existing trees.
+The original promotional brochure described it as "the greatest single real estate enterprise in the history of this city, involving more ground, more money to purchase the naked land, and more money to develop, than any individual real estate enterprise of its kind." Two hundred acres of ground comprised the subdivision, with approximately seven miles of unusually wide boulevards and streets, leaving approximately 700 extra-large homesites.
+
+Shortly after the purchase, the buildings of the Allen County Poor Farm were razed to make room for development. The main building of the Orphan's Home, in its beautiful surroundings of lawns and trees, was left standing to be remodeled and transformed by the Board of Park Commissioners into a Community Club House where the residents of Indian Village could unite for social functions and the discussion of matters of mutual interest.
+
+<a href="/docs/1930-indian-village-booklet.pdf" class="btn" target="_blank">Download the 1930 Promotional Booklet (PDF)</a>
+
+### The Naming of Indian Village
+
+When it came to naming the subdivision, the City and Suburban Building Company felt that the people of Fort Wayne should have a part in it. Through an advertising campaign, a naming contest was held, offering a $250 prize. Thousands of names were suggested, and thousands of people voted on them — participants came from as far away as Florida and California. The final result was the name "Indian Village," chosen to commemorate the historic past of the land, which had long been home to Native Americans before European settlement, and their reservation afterward.
+
+### Lawrence V. Sheridan and the Landscape Plan
+
+Lawrence V. Sheridan, a prominent Indiana landscape architect and city planner who had helped to artistically beautify some of the "miracle cities" of Florida, was hired for the planning and beautifying of the new addition as an automobile-oriented suburb. For Indian Village, Sheridan utilized the rolling topography to give graceful sweeps and curves to the broad boulevards, creating a series of arcing streets centered on a broad esplanade. Lots were designed to retain existing trees.
+
+Civil engineer A. K. Hofer of Fort Wayne collaborated with Sheridan on the General Plan, which showed the full extent of the subdivision alongside Foster Park and the St. Mary's River. The plan called for wide paved streets of reinforced concrete construction with non-skid surfaces, ornamental lamp posts, park strips with flowering shrubbery, and sidewalks throughout.
 
 A newspaper article of the time stated that Hiawatha Boulevard "is destined to be one of Fort Wayne's finest residential thoroughfares," commenting extensively about the combined widths of the thoroughfares and the building line that created a distance of 200 feet between houses on opposite sides of the street.
+
+### The Native American Theme
+
+This modern Indian Village was wrapped in a mythical setting inspired by Henry Wadsworth Longfellow's epic poem "Song of Hiawatha," based on the legends of the Ojibway Indians. The poem's Native American names appear as the names of many of the village streets. Elaborate brick and stone entry markers with a beautifully carved Native American with an elaborate headdress define the main entry into the subdivision. A scenic grouping of concrete teepees is located on the main esplanade. These features are based on 1920s popular culture images of Plains Indians.
+
+The City and Suburban Building Company used the Native American theme to market Indian Village as a lifestyle, a return to a quieter time, separated from the dirt and noise of the central city and the presence of smoke-belching factories. Located at the very edge of the city limits, village residents of the 1920s and 1930s nevertheless had access to three modes of modern transportation to carry them downtown to work or to shop — private automobiles, buses, and interurban rail cars. Promotional materials said that after trips to the hustle and bustle of downtown, residents could expect that "in the Indian Village you feel all the freedom and happiness of the great outdoors where the clear, clean fresh air, invigorating sunshine, and true restfulness prevail."
+
+#### Street Names and Their Meanings
+
+| Street | Meaning |
+|--------|---------|
+| Algonquin Pass | An Indian tribe |
+| Enola Court | An Indian maiden |
+| Hiawatha Blvd. | Indian boy |
+| Manito Blvd. | Guardian spirit |
+| Meda Pass | A medicine man |
+| Muscoday Pass | The meadow |
+| Nokomis Road | A grandmother |
+| Ojibway Trail | An Indian tribe |
+| Opechee Way | The robin |
+| Owaissa Way | The bluebird |
+| Wawonaissa Trail | The whippoorwill |
+| Wendigo Lane | A giant |
+| Wenonah Lane | Hiawatha's mother |
 
 ## "Expect Much of Indian Village"
 
@@ -29,17 +69,49 @@ The City Beautiful Movement of the early twentieth century called for the blendi
 
 > "There will be no cramping nor crowding, no narrow passageways between the homes of Indian Village."
 
-## The Native American Theme
+### Smokeless Atmosphere
 
-This modern Indian Village was wrapped in a mythical setting inspired by Henry Wadsworth Longfellow's epic poem "Song of Hiawatha," based on the legends of the Ojibway Indians. The poem's Native American names — such as Hiawatha, Nokomis, Manito, Muscoday, and Wenonah — appear as the names of many of the village streets. Elaborate brick and stone entry markers with a beautifully carved Native American with an elaborate headdress define the main entry into the subdivision. A scenic grouping of concrete teepees is located on the main esplanade. These features are based on 1920s popular culture images of Plains Indians.
+The clean atmosphere of Indian Village was actively protected. Not only was the subdivision far from the nearest factory, but restrictions called for the use of smokeless fuel or smoke-consuming devices in every home. The 1930 promotional booklet declared: "With the prevailing breezes in Indian Village coming from the southwest and west and over uninhabited ground, there will truly be, in Indian Village at all times — smokeless atmosphere." A later IVCA brochure noted this meant "cleaner homes, with cleaner draperies, rugs, furniture and floors... cleaner paint and porches and less expense" for residents.
 
-The City and Suburban Building Company used the Native American theme to market Indian Village as a lifestyle, a return to a quieter time, separated from the dirt and noise of the central city and the presence of smoke-belching factories. Located at the very edge of the city limits, village residents of the 1920s and 1930s nevertheless had access to three modes of modern transportation to carry them downtown to work or to shop — private automobiles, buses, and interurban rail cars. Promotional materials said that after trips to the hustle and bustle of downtown, residents could expect that "in the Indian Village you feel all the freedom and happiness of the great outdoors where the clear, clean fresh air, invigorating sunshine, and true restfulness prevail."
+### The Business Square
+
+Away from the main residential section, in a small beautified square of its own, was planned the commercial area of Indian Village. The grocer, the druggist, the barber — the merchants of Indian Village would serve the everyday needs of the 800 families planned for the subdivision. There were also to be a filling station and a garage. No business buildings, corner stores, or gasoline stations were permitted outside the business square, and special paved parking ways were provided, divided from the main boulevard by parkways of lawns and shrubbery.
+
+### The Indian Village Office and the Catlett Painting
+
+Situated conveniently in the heart of Indian Village, the City and Suburban Building Company erected a beautiful office building that won the admiration of citizens and passing tourists alike. Housed within it, in a most attractive setting, was a remarkable 16-foot-long watercolor painting by the renowned Gibson Catlett Studios of Chicago. The painting vividly portrayed what Indian Village would look like when completed. Thousands visited the office for the express purpose of seeing this work, and the 1930 booklet noted that "many have become boosters of Indian Village."
+
+### High Ground and Superb Infrastructure
+
+The promotional materials made much of Indian Village's elevation — at 790.90 feet above sea level, it stood 37 feet higher than the Allen County Courthouse. High ground meant better natural drainage, and the subdivision's sewer system was built to the highest standards. In a 1944 address to the Fort Wayne Board of Realtors, City Sewer Engineer James R. Hardendorf stated: "There is only one sewer district in Fort Wayne in which no remedial measures are needed. That district is — Indian Village."
+
+The point where the sewer mains came closest to the surface was fourteen feet, and all sewers were more than ample in size — far exceeding the older systems in other parts of the city, much of which dated from the 1890s and earlier.
+
+### Foster Park
+
+With Foster Park just across the river, connected by a suspension foot-bridge, Indian Village residents enjoyed some of the finest recreational opportunities in Fort Wayne. Tennis courts, the new Municipal Golf Course, picnic grounds, a bridle path winding for miles along the river, outdoor ovens and tables, and a sheltered pavilion with modern facilities were all within a short walk. Both the Fort Wayne Country Club and the Orchard Ridge Country Club were just a few minutes' drive over good roads. The 1930 booklet envisioned that "boating and canoeing will also be one of the joys some of these days of the residents of Indian Village."
+
+---
+
+## "A Great Residential District"
+
+By the mid-1940s, Indian Village had established itself as one of the finest residential districts in Indiana. The Indian Village Community Association published a promotional booklet describing the subdivision for prospective homebuyers.
+
+"The owners of the many charming homes happily located here, with ideals of beauty and a love of nature, appreciate the subdivision as one of the finest residential districts in Indiana," the booklet stated. It highlighted how Indian Villagers who liked gardening found the loose, rich, sandy soil easy to work and very productive — "a delightful contrast to the hard clay generally prevailing in many other parts of the city."
+
+The booklet also described the IVCA's role in protecting the community: reasonable restrictions prevented any builder from doing anything that would "mar the artistry of home designing and gardening of his neighbors," while still protecting the liberties each homeowner desired. No billboards or advertising signs could mar the landscape. Building plans required approval from the Association, and an annual maintenance fee (originally just $5 per lot) funded care of vacant lots, snow removal from sidewalks, and maintenance of the grass and planted areas within the street boundaries.
+
+<a href="/docs/a-great-residential-district.pdf" class="btn" target="_blank">Download "A Great Residential District" Booklet (PDF)</a>
+
+---
 
 ## The Worthman Era
 
-Development in Indian Village nearly ceased during the Great Depression. The City and Suburban Building Company lost control of the project and declared bankruptcy about 1930.
+Development in Indian Village nearly ceased during the Great Depression. The City and Suburban Building Company lost control of the project and declared bankruptcy about 1930. By 1946, the city directory listed just 111 homes in Indian Village, with 57 lots still vacant.
 
 Local homebuilder John R. Worthman assumed control of the Indian Village subdivision after World War II. He continued to enlarge Sheridan's basic design with new additions, while maintaining the established street widths, tree plantings, and park strips. Restrictive covenants were used, including building set-back limits, the size and placement of homes on the lots, and a minimum home value of no less than $6,000. Worthman also continued to vary lot sizes to reduce the potential for monotonous streetscapes, disallowed fenced front yards, and prohibited commercial activity of any kind on any lot. The plat for Section C called for the establishment of an Indian Village Community Association and fixed an annual fee for the purpose of maintaining public areas.
+
+In April 1953, plans were announced to extend the western boundary of Indian Village for platting into new home sites. The land covered about 41.8 acres and was bounded by the present city limits on the east, Engle Road on the south, and the railroads on the north and west. The annexation move was made by Worthman, allowing for 69 homes in Indian Hills and 67 in Section E — a total of over 500 lots. Four new streets would for the first time permit access to Nuttman Avenue. A school and park were also to be built. Before Indian Village Elementary School opened in 1954-55, children in the subdivision attended South Wayne School through sixth grade.
 
 When the wave of new home-building swept over Fort Wayne after World War II, Worthman positioned his company at its apex and stayed there. To meet the rapidly growing housing needs for returning veterans, meet FHA standards, and increase the speed of construction without sacrificing quality, Worthman used an assembly-line method of completing a block of homes he called "site fabrication." By setting up his cutting equipment on-site and establishing an assembly area within the village, his crews could cut lumber for multiple structures at the same time and frame the homes over multiple, already-prepared basements. Building clusters of similar homes with assembly-line methods realized economies of scale by minimizing loss of time through movement of crews and maximized the use of construction equipment and materials on-site. However, variations in architectural details were retained to combat the monotony associated with other period subdivisions.
 
@@ -66,7 +138,7 @@ Thoroughly modern yet influenced by the earlier Craftsman and Prairie styles, th
 ### Spanish Revival, 1929 — 3710 Wawonaissa Trail
 *John & Margaret Banning House — Noble Miller, architect*
 
-Totally unique, this house was designed by architect Noble Miller for John Banning, Secretary and Sales Manager of the City and Suburban Company, the original developer of Indian Village. With its tower, arched windows, tile and stucco walls — which were originally tinted in green, buff, and pink — this house was and is a commanding presence at the end of the main boulevard.
+Totally unique, this house was designed by architect Noble Miller for John Banning, Secretary and Sales Manager of the City and Suburban Company, the original developer of Indian Village. With its tower, arched windows, tile and stucco walls — which were originally tinted in green, buff, and pink — this house was and is a commanding presence at the end of the main boulevard. A 1929 newspaper feature described the home in detail: the living room featured a beamed ceiling and Spanish fireplace, with Portland cement stucco walls in "Mediterranean green, dark buff and rose pinks." General contractor Ernest C. Heckman built the home, which included eight rooms, a two-car garage, recreation room, and two baths. The home was rated "Outstanding" in the 1996 Indiana Historic Sites and Structures Inventory.
 
 ### Colonial Revival, c. 1948 — 3801 Hiawatha Blvd.
 *Don & Louise Vordermark House*
@@ -144,4 +216,14 @@ Like most of the surrounding houses, the school was constructed in a low, rambli
 
 ---
 
-*This information is adapted from the Indian Village Historic District brochure published by the City of Fort Wayne Community Development Planning Department. The project was funded in part by a grant from the U.S. Department of the Interior, National Park Service's Historic Preservation Fund, administered by the Indiana Department of Natural Resources, Division of Historic Preservation and Archaeology.*
+## The 2000 Resident Binder
+
+In December 2000, IVCA Secretary-Treasurer Jan Tidwell and historian Marilyn Horrell compiled a comprehensive resident binder documenting the history, governance, and community life of Indian Village. Horrell's research drew on seven primary sources: original publications by the City and Suburban Building Company, photographs from the Saturday News Sentinel's rotogravure section, aerial photographs, city directories, newspaper archives, library collections, and the 1996 Indiana Historic Sites and Structures Inventory from the Fort Wayne City/County Building.
+
+Among Horrell's findings: the 1946 city directory listed just 111 homes in Indian Village, with 57 still vacant and only 29 on Hiawatha — just 4 had been built the previous year, marking the start of the post-war building boom. She also documented that the 1929 Depression had stopped the original plans after just 14 homes were finished in Section A, according to 35-year resident Charlene Hindman of 2226 Indian Village Boulevard.
+
+<a href="/docs/2000-resident-binder.pdf" class="btn" target="_blank">Download the 2000 Resident Binder (PDF)</a>
+
+---
+
+*The historical information on this page is adapted from multiple sources including the Indian Village Historic District brochure published by the City of Fort Wayne Community Development Planning Department, original promotional materials by the City and Suburban Building Company (c. 1927-1930), the "A Great Residential District" booklet published by the Indian Village Community Association (c. 1946), and the 2000 IVCA Resident Binder compiled by Marilyn Horrell. The Historic District brochure project was funded in part by a grant from the U.S. Department of the Interior, National Park Service's Historic Preservation Fund, administered by the Indiana Department of Natural Resources, Division of Historic Preservation and Archaeology.*
