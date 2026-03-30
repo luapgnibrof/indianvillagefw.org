@@ -1,5 +1,6 @@
 public/
 resources/
+data/
 .hugo_build.lock
 *.pdf
 .github/pr-body.md

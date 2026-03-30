@@ -13,5 +13,21 @@
     {{ end }}
   </ul>
   {{ end }}
+
+  {{ with hugo.Data.waynedale_feed }}
+  <hr>
+
+  <h2>Latest from Waynedale News</h2>
+  <p class="feed-description">Recent headlines from <a href="https://waynedalenews.com/" target="_blank" rel="noopener">The Waynedale News</a>, the community newspaper serving the Waynedale area of Fort Wayne.</p>
+
+  <ul class="waynedale-feed">
+    {{ range .items }}
+    <li>
+      <a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a>
+      {{ with .date }}<span class="feed-date">&mdash; {{ . }}</span>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
 </div>
 {{ end }}

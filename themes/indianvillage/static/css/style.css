@@ -290,6 +290,20 @@ img { max-width: 100%; height: auto; }
   padding: 0.5rem 1rem;
   background: #f0f4ff;
 }
+.page-content hr {
+  border: none;
+  border-top: 1px solid #d1d5db;
+  margin: 2rem 0;
+}
+.feed-description { color: #666; font-size: 0.9rem; }
+.waynedale-feed { list-style: none; margin-left: 0 !important; padding: 0; }
+.waynedale-feed li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.waynedale-feed li:last-child { border-bottom: none; }
+.waynedale-feed a { font-weight: 500; }
+.feed-date { color: #888; font-size: 0.85rem; }
 
 /* === Responsive === */
 @media (max-width: 768px) {
