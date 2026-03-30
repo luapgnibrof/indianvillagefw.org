@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 A special newsletter about the neighborhood entrance monument wall repair project.
 
-[Read the full newsletter here.](http://eepurl.com/i77g1g)
+[Read the full newsletter here.](https://eepurl.com/i77g1g)

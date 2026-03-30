@@ -9,7 +9,7 @@ enableRobotsTXT = true
   subtitle = 'Waynedale, Fort Wayne, Indiana'
   description = 'Official website of the Indian Village Community Association in Waynedale, Fort Wayne, Indiana.'
   email = 'board@indianvillagefw.org'
-  contactFormURL = 'http://eepurl.com/hHlH_P'
+  contactFormURL = 'https://eepurl.com/hHlH_P'
   mailingAddress = '''Indian Village Community Association
 2310 Indian Village Blvd.
 Fort Wayne, IN 46809'''
@@ -76,7 +76,7 @@ Fort Wayne, IN 46809'''
     name = 'Poco Pool'
     parent = 'Community Links'
     url = 'https://pocopool.org/'
-    weight = 2
+    weight = 3
     [menu.main.params]
       external = true
 

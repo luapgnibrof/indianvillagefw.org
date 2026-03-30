@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The September 2024 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/iYaxHI)
+[Read the full newsletter here.](https://eepurl.com/iYaxHI)

@@ -1,20 +1,15 @@
 {{ define "main" }}
-<h1>{{ .Site.Title }}</h1>
-<p class="subtitle">{{ .Site.Params.subtitle }}</p>
-
-<div class="action-buttons">
-  <a href="mailto:{{ .Site.Params.email }}" class="btn">Send Us An Email</a>
-  <a href="{{ .Site.Params.contactFormURL }}" class="btn" target="_blank" rel="noopener">Update Your Contact Info</a>
-</div>
+<h1>{{ .Title }}</h1>
+{{ with .Content }}<div class="page-content">{{ . }}</div>{{ end }}
 
 <div class="posts">
-  {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+  {{ $paginator := .Paginate .Pages }}
   {{ range $paginator.Pages }}
   <article class="post-summary">
     <div class="post-date">
-      <span class="year">{{ .Date.Format "2006" }}</span>
       <span class="month">{{ .Date.Format "Jan" }}</span>
       <span class="day">{{ .Date.Format "2" }}</span>
+      <span class="year">{{ .Date.Format "2006" }}</span>
     </div>
     <div class="post-content">
       <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>

@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The January 2025 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/i7e88o)
+[Read the full newsletter here.](https://eepurl.com/i7e88o)

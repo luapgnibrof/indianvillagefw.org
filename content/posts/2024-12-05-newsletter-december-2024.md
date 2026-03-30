@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The December 2024 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/i5oTHM)
+[Read the full newsletter here.](https://eepurl.com/i5oTHM)

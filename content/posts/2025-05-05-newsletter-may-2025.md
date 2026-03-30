@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The May 2025 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/jd0cZA)
+[Read the full newsletter here.](https://eepurl.com/jd0cZA)

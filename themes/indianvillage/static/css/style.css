@@ -1,6 +1,6 @@
 /* === Reset & Base === */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { font-size: 16px; scroll-behavior: smooth; }
+html { font-size: 16px; scroll-behavior: smooth; scroll-padding-top: 4rem; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
   line-height: 1.6;
@@ -9,6 +9,22 @@ body {
 }
 a { color: #2563eb; text-decoration: none; }
 a:hover { text-decoration: underline; }
+a:focus, button:focus, input:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: #1e3a5f;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  z-index: 300;
+  font-size: 0.9rem;
+}
+.skip-link:focus { top: 0.5rem; }
 img { max-width: 100%; height: auto; }
 
 /* === Header === */
@@ -72,7 +88,8 @@ img { max-width: 100%; height: auto; }
   min-width: 200px;
   z-index: 200;
 }
-.has-children:hover .sub-menu { display: block; }
+.has-children:hover .sub-menu,
+.has-children:focus-within .sub-menu { display: block; }
 .sub-menu li a {
   display: block;
   padding: 0.5rem 1rem;
@@ -134,9 +151,9 @@ img { max-width: 100%; height: auto; }
   text-align: center;
   color: #1e3a5f;
 }
-.post-date .year { font-size: 0.85rem; font-weight: 600; }
 .post-date .month { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
 .post-date .day { font-size: 1.5rem; font-weight: 700; line-height: 1; }
+.post-date .year { font-size: 0.75rem; color: #888; }
 .post-content h2 { font-size: 1.2rem; margin-bottom: 0.3rem; }
 .post-content h2 a { color: #1e3a5f; }
 .post-content h2 a:hover { color: #2563eb; }
@@ -288,4 +305,15 @@ img { max-width: 100%; height: auto; }
   .action-buttons { flex-direction: column; }
   .post-summary { flex-direction: column; gap: 0.5rem; }
   .post-date { flex-direction: row; gap: 0.5rem; }
+}
+
+/* === Print === */
+@media print {
+  .site-header, .sidebar, .skip-link, .action-buttons,
+  .newsletter-signup, .pagination, .site-footer { display: none; }
+  .site-wrapper { display: block; max-width: 100%; padding: 0; }
+  body { color: #000; background: #fff; font-size: 12pt; }
+  a { color: #000; text-decoration: underline; }
+  a[href]::after { content: " (" attr(href) ")"; font-size: 0.8em; }
+  nav a[href]::after { content: none; }
 }

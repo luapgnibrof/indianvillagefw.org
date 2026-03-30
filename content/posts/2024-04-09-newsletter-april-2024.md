@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The April 2024 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/iNoZXI)
+[Read the full newsletter here.](https://eepurl.com/iNoZXI)

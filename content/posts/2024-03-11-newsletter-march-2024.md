@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The March 2024 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/iLE7wE)
+[Read the full newsletter here.](https://eepurl.com/iLE7wE)

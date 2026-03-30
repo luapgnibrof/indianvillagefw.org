@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The January 2026 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/jxIePY)
+[Read the full newsletter here.](https://eepurl.com/jxIePY)

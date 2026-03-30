@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The October 2024 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/i0KY2I)
+[Read the full newsletter here.](https://eepurl.com/i0KY2I)

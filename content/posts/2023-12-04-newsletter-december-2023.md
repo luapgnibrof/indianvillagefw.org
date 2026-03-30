@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The December 2023 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/iFg4QU)
+[Read the full newsletter here.](https://eepurl.com/iFg4QU)

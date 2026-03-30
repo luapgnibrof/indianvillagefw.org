@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The March 2025 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/i-80zQ)
+[Read the full newsletter here.](https://eepurl.com/i-80zQ)

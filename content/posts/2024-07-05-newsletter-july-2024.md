@@ -7,4 +7,4 @@ categories: ["Newsletter"]
 
 The July 2024 newsletter is now available.
 
-[Read the full newsletter here.](http://eepurl.com/iS_dV6)
+[Read the full newsletter here.](https://eepurl.com/iS_dV6)
