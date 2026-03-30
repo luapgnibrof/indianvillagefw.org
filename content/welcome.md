@@ -42,14 +42,19 @@ To join, pay voluntary dues, or just introduce yourself: [email the board](mailt
 
 - **[Indian Village Elementary School](https://www.fwcs.k12.in.us/indianvillage)** — 3835 Wenonah Lane (Fort Wayne Community Schools). Located within the neighborhood. Please note: during school dismissal (2:30-3:30 PM), drivers should avoid the Wenonah/Ojibway intersection for everyone's safety.
 - **Kekionga Middle School** — serving Indian Village students for grades 6-8.
+- **[South Side High School](https://www.fwcs.k12.in.us/southside)** — 3601 S. Calhoun Street. Home of the Archers.
 
 ---
 
-## Recreation
+## Parks and Recreation
+
+- **[Indian Village Park](https://www.cityoffortwayne.in.gov/Facilities/Facility/Details/Indian-Village-Park-64)** — 1701 Bluffton Road. A 10-acre city park within the neighborhood since 1926, featuring the Sears Pavilion (available for rental), playground, picnic tables, and direct access to the 24-mile Rivergreenway trail. Connected to Foster Park by a pedestrian footbridge across the St. Mary's River.
+
+- **[Psi Ote Park](https://www.cityoffortwayne.in.gov/facilities/facility/details/psiotepark-86)** — Wenonah Lane at Nuttman Avenue. An 8.9-acre city park adjacent to Indian Village Elementary School, donated by the Pi chapter of Psi Iota Xi Sorority in 1953. Features a basketball court, playground, pavilion (first-come/first-served), and open green space.
+
+- **[Foster Park](https://www.cityoffortwayne.in.gov/Facilities/Facility/Details/Foster-Park-46)** — Directly across the St. Mary's River, connected by footbridge from Indian Village Park. Features the municipal golf course, tennis courts, picnic pavilions, and miles of river trails.
 
 - **[Pocahontas Swim Club (Poco Pool)](https://pocopool.org/)** — 3020 Ojibway Trail. Fort Wayne's original swim club since 1961. Heated pool, sand volleyball, fire pit, concessions. Open daily 12:30-8:30, Memorial Day through Labor Day. Memberships available on their website or call (260) 209-3158 (summer).
-
-- **[Foster Park](https://www.cityoffortwayne.org/parks-and-recreation)** — Directly across the St. Mary's River, connected by a pedestrian footbridge. Features include the municipal golf course, tennis courts, picnic pavilions, and miles of river trails.
 
 ---
 

@@ -15,7 +15,10 @@ Indian Village is located in the Waynedale area of southwest Fort Wayne, Indiana
 |----------|---------|
 | Entrance Monuments | Indian Village Blvd. at Bluffton Road |
 | Indian Village Elementary School | 3835 Wenonah Lane |
+| South Side High School | 3601 S. Calhoun Street |
 | Pocahontas Swim Club (Poco Pool) | 3020 Ojibway Trail |
+| Indian Village Park / Sears Pavilion | 1701 Bluffton Road |
+| Psi Ote Park | Wenonah Lane at Nuttman Avenue |
 | Foster Park (via footbridge) | Across the St. Mary's River |
 | Business Square | Hiawatha Blvd. at Opechee Way |
 
