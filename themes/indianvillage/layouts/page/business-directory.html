@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="page-content">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $data := hugo.Data.businesses }}
+  {{ $hasAny := false }}
+  {{ range $data.categories }}
+    {{ if gt (len .businesses) 0 }}{{ $hasAny = true }}{{ end }}
+  {{ end }}
+
+  {{ if not $hasAny }}
+  <div class="directory-empty">
+    <p>The directory is just getting started — no listings yet. Be the first! Email <a href="mailto:board@indianvillagefw.org">board@indianvillagefw.org</a> to add your business.</p>
+  </div>
+  {{ end }}
+
+  <div class="directory-categories">
+    {{ range $data.categories }}
+      {{ if gt (len .businesses) 0 }}
+      <section class="directory-category" id="{{ .slug }}">
+        <h2>{{ .name }}</h2>
+        <div class="directory-listings">
+          {{ range .businesses }}
+          <div class="directory-card">
+            <h3>{{ .name }}{{ if .resident }} <span class="resident-badge" title="Indian Village resident">IV Resident</span>{{ end }}</h3>
+            <p class="directory-desc">{{ .description }}</p>
+            <div class="directory-contact">
+              {{ with .phone }}<span class="directory-phone"><a href="tel:{{ replaceRE "[^0-9]" "" . }}">{{ . }}</a></span>{{ end }}
+              {{ with .website }}<span class="directory-website"><a href="{{ . }}" target="_blank" rel="noopener">Website</a></span>{{ end }}
+              {{ with .address }}<span class="directory-address">{{ . }}</span>{{ end }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+    {{ end }}
+  </div>
+
+  <div class="directory-all-categories">
+    <h2>Categories</h2>
+    <ul class="category-list">
+      {{ range $data.categories }}
+      <li>
+        {{ if gt (len .businesses) 0 }}<a href="#{{ .slug }}">{{ .name }}</a> ({{ len .businesses }}){{ else }}<span class="category-empty">{{ .name }}</span>{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}

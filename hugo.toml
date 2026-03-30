@@ -99,10 +99,16 @@ Fort Wayne, IN 46809'''
     weight = 1
 
   [[menu.main]]
+    name = 'Business Directory'
+    parent = 'Resources'
+    url = '/business-directory/'
+    weight = 2
+
+  [[menu.main]]
     name = 'Facebook'
     parent = 'Resources'
     url = 'https://www.facebook.com/groups/indianvillagefw'
-    weight = 2
+    weight = 3
     [menu.main.params]
       external = true
 
@@ -110,7 +116,7 @@ Fort Wayne, IN 46809'''
     name = 'NextDoor'
     parent = 'Resources'
     url = 'https://nextdoor.com/'
-    weight = 3
+    weight = 4
     [menu.main.params]
       external = true
 
@@ -118,7 +124,7 @@ Fort Wayne, IN 46809'''
     name = 'Poco Pool'
     parent = 'Resources'
     url = 'https://pocopool.org/'
-    weight = 4
+    weight = 5
     [menu.main.params]
       external = true
 
@@ -126,7 +132,7 @@ Fort Wayne, IN 46809'''
     name = 'Archive'
     parent = 'Resources'
     url = 'https://archive.ivcafw.org/'
-    weight = 5
+    weight = 6
     [menu.main.params]
       external = true
 
