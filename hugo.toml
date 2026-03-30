@@ -1,0 +1,103 @@
+baseURL = 'https://indianvillagefw.org/'
+languageCode = 'en-us'
+title = 'Historic Indian Village'
+theme = 'indianvillage'
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  subtitle = 'Waynedale, Fort Wayne, Indiana'
+  description = 'Official website of the Indian Village Community Association in Waynedale, Fort Wayne, Indiana.'
+  email = 'board@indianvillagefw.org'
+  contactFormURL = 'https://forms.gle/ayYChjbUQ6V45x18A'
+  mailingAddress = '''Indian Village Community Association
+2310 Indian Village Blvd.
+Fort Wayne, IN 46809'''
+
+[params.mailchimp]
+  actionURL = 'https://indianvillagefw.us5.list-manage.com/subscribe/post?u=3f227c81950b3c12a66ed4dcc&id=1b04d054c6'
+
+[menu]
+
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+
+  [[menu.main]]
+    name = 'About Us'
+    url = '/about/'
+    weight = 2
+
+  [[menu.main]]
+    name = 'Newsletters'
+    url = '#'
+    weight = 3
+
+  [[menu.main]]
+    name = 'June 2022'
+    parent = 'Newsletters'
+    url = 'https://us5.campaign-archive.com/?u=3f227c81950b3c12a66ed4dcc&id=ed53f6f583'
+    weight = 1
+    [menu.main.params]
+      external = true
+
+  [[menu.main]]
+    name = 'Past Issues'
+    parent = 'Newsletters'
+    url = 'https://us5.campaign-archive.com/home/?u=3f227c81950b3c12a66ed4dcc&id=1b04d054c6'
+    weight = 2
+    [menu.main.params]
+      external = true
+
+  [[menu.main]]
+    name = 'Social Pages'
+    url = '#'
+    weight = 4
+
+  [[menu.main]]
+    name = 'Facebook'
+    parent = 'Social Pages'
+    url = 'https://www.facebook.com/groups/indianvillagefw'
+    weight = 1
+    [menu.main.params]
+      external = true
+
+  [[menu.main]]
+    name = 'NextDoor'
+    parent = 'Social Pages'
+    url = 'https://nextdoor.com/'
+    weight = 2
+    [menu.main.params]
+      external = true
+
+  [[menu.main]]
+    name = 'Community Links'
+    url = '#'
+    weight = 5
+
+  [[menu.main]]
+    name = 'Local News Stories'
+    parent = 'Community Links'
+    url = '/local-news/'
+    weight = 1
+
+  [[menu.main]]
+    name = 'Poco Pool'
+    parent = 'Community Links'
+    url = 'https://pocopool.org/'
+    weight = 2
+    [menu.main.params]
+      external = true
+
+  [[menu.main]]
+    name = 'Archive'
+    url = 'https://archive.ivcafw.org/'
+    weight = 6
+    [menu.main.params]
+      external = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
