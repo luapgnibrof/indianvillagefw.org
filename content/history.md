@@ -216,14 +216,4 @@ Like most of the surrounding houses, the school was constructed in a low, rambli
 
 ---
 
-## The 2000 Resident Binder
-
-In December 2000, IVCA Secretary-Treasurer Jan Tidwell and historian Marilyn Horrell compiled a comprehensive resident binder documenting the history, governance, and community life of Indian Village. Horrell's research drew on seven primary sources: original publications by the City and Suburban Building Company, photographs from the Saturday News Sentinel's rotogravure section, aerial photographs, city directories, newspaper archives, library collections, and the 1996 Indiana Historic Sites and Structures Inventory from the Fort Wayne City/County Building.
-
-Among Horrell's findings: the 1946 city directory listed just 111 homes in Indian Village, with 57 still vacant and only 29 on Hiawatha — just 4 had been built the previous year, marking the start of the post-war building boom. She also documented that the 1929 Depression had stopped the original plans after just 14 homes were finished in Section A, according to 35-year resident Charlene Hindman of 2226 Indian Village Boulevard.
-
-<a href="/docs/2000-resident-binder.pdf" class="btn" target="_blank">Download the 2000 Resident Binder (PDF)</a>
-
----
-
-*The historical information on this page is adapted from multiple sources including the Indian Village Historic District brochure published by the City of Fort Wayne Community Development Planning Department, original promotional materials by the City and Suburban Building Company (c. 1927-1930), the "A Great Residential District" booklet published by the Indian Village Community Association (c. 1946), and the 2000 IVCA Resident Binder compiled by Marilyn Horrell. The Historic District brochure project was funded in part by a grant from the U.S. Department of the Interior, National Park Service's Historic Preservation Fund, administered by the Indiana Department of Natural Resources, Division of Historic Preservation and Archaeology.*
+*The historical information on this page is adapted from multiple sources including the Indian Village Historic District brochure published by the City of Fort Wayne Community Development Planning Department, original promotional materials by the City and Suburban Building Company (c. 1927-1930), and the "A Great Residential District" booklet published by the Indian Village Community Association (c. 1946). The Historic District brochure project was funded in part by a grant from the U.S. Department of the Interior, National Park Service's Historic Preservation Fund, administered by the Indiana Department of Natural Resources, Division of Historic Preservation and Archaeology.*
