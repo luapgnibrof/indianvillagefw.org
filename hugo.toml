@@ -82,16 +82,28 @@ Fort Wayne, IN 46809'''
     weight = 2
 
   [[menu.main]]
+    name = 'Meeting Minutes'
+    parent = 'News'
+    url = '/meeting-minutes/'
+    weight = 3
+
+  [[menu.main]]
     name = 'Local News Stories'
     parent = 'News'
     url = '/local-news/'
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = 'Local Projects'
     parent = 'News'
     url = '/local-projects/'
-    weight = 4
+    weight = 5
+
+  [[menu.main]]
+    name = 'Events'
+    parent = 'News'
+    url = '/events/'
+    weight = 6
 
   [[menu.main]]
     name = 'Resources'

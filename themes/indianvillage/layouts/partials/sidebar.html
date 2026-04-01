@@ -34,5 +34,38 @@
     </ul>
   </section>
 
+  <section class="widget upcoming-dates">
+    <h3>Upcoming Dates</h3>
+    {{ $now := now }}
+    {{ $upcoming := slice }}
+    {{ range (hugo.Data.projects).projects }}
+      {{ $project := .name }}
+      {{ $slug := .slug }}
+      {{ range .key_dates }}
+        {{ $event := .event }}
+        {{ with .iso }}
+          {{ $parsed := time . }}
+          {{ if $parsed.After $now }}
+            {{ $upcoming = $upcoming | append (dict "date" $parsed "event" $event "project" $project "slug" $slug) }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ $sorted := sort $upcoming "date" }}
+    {{ if $sorted }}
+      <ul class="upcoming-list">
+        {{ range first 5 $sorted }}
+        <li>
+          <span class="upcoming-date">{{ .date.Format "Jan 2" }}</span>
+          <a href="/local-projects/#{{ .slug }}">{{ .event }}</a>
+        </li>
+        {{ end }}
+      </ul>
+      <a href="/local-projects/" class="upcoming-more">All projects &rarr;</a>
+    {{ else }}
+      <p class="upcoming-empty">No upcoming dates at this time.</p>
+    {{ end }}
+  </section>
+
   {{ partial "newsletter-signup.html" . }}
 </aside>

@@ -129,15 +129,17 @@ categories: ["Financial"]
 | `title`     | The post title, in quotes                                                |
 | `date`      | Publication date in `YYYY-MM-DDT00:00:00-04:00` format (Eastern time)    |
 | `author`    | Your name, in quotes                                                     |
-| `categories`| One of: `["Financial"]`, `["HOA"]`, or `["Event"]`                       |
+| `categories`| One of: `["Newsletter"]`, `["Financial"]`, `["HOA"]`, `["Event"]`, or `["Local News"]` |
 
 ### Categories
 
 | Category      | Use for                                                  |
 |--------------|----------------------------------------------------------|
+| `Newsletter` | Monthly newsletters (link to Mailchimp archive)           |
 | `Financial`  | Monthly financial reports                                 |
 | `HOA`        | Board meeting minutes, bylaws, association announcements  |
 | `Event`      | Garage sales, community events, etc.                      |
+| `Local News` | News stories about Indian Village from local media        |
 
 ---
 

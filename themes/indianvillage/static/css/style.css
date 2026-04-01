@@ -280,6 +280,35 @@ img { max-width: 100%; height: auto; }
 }
 .resource-detail { color: #888; font-size: 0.8rem; }
 
+/* === Upcoming Dates Widget === */
+.upcoming-list {
+  list-style: none;
+  margin: 0;
+}
+.upcoming-list li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.upcoming-list li:last-child { border-bottom: none; }
+.upcoming-date {
+  display: inline-block;
+  font-weight: 600;
+  color: #1e3a5f;
+  min-width: 3.5rem;
+}
+.upcoming-more {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.upcoming-empty {
+  color: #888;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 /* === Newsletter Signup === */
 .newsletter-signup {
   background: #f0f4ff !important;
