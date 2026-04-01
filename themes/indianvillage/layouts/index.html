@@ -21,22 +21,65 @@
 
 <div class="posts">
   {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
-  {{ range $paginator.Pages }}
-  <article class="post-summary">
-    <div class="post-date">
-      <span class="month">{{ .Date.Format "Jan" }}</span>
-      <span class="day">{{ .Date.Format "2" }}</span>
-      <span class="year">{{ .Date.Format "2006" }}</span>
-    </div>
-    <div class="post-content">
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      <p>{{ .Summary }}</p>
-      <div class="post-meta">
-        {{ with .Params.categories }}<span class="categories">{{ range . }}<a href="{{ "categories/" | relURL }}{{ . | urlize }}/">{{ . }}</a> {{ end }}</span>{{ end }}
-        {{ with .Params.author }}<span class="author">{{ . }}</span>{{ end }}
+
+  {{ if eq $paginator.PageNumber 1 }}
+    {{/* Page 1: interleave project updates with posts, sorted by date */}}
+    {{ $items := slice }}
+
+    {{ range $paginator.Pages }}
+      {{ $items = $items | append (dict "date" .Date "title" .Title "summary" .Summary "url" .RelPermalink "type" "post" "categories" .Params.categories "author" .Params.author) }}
+    {{ end }}
+
+    {{ range (hugo.Data.projects).projects }}
+      {{ $date := time .updated }}
+      {{ $summary := default .summary .latest_update }}
+      {{ $items = $items | append (dict "date" $date "title" .name "summary" $summary "url" (printf "/local-projects/#%s" .slug) "type" "project" "status_label" .status_label "status" .status) }}
+    {{ end }}
+
+    {{ range sort $items "date" "desc" }}
+    <article class="post-summary{{ if eq .type "project" }} project-update{{ end }}">
+      <div class="post-date">
+        <span class="month">{{ .date.Format "Jan" }}</span>
+        <span class="day">{{ .date.Format "2" }}</span>
+        <span class="year">{{ .date.Format "2006" }}</span>
       </div>
-    </div>
-  </article>
+      <div class="post-content">
+        <h2>
+          <a href="{{ .url }}">{{ .title }}</a>
+          {{ if eq .type "project" }}<span class="project-status status-{{ .status }}">{{ .status_label }}</span>{{ end }}
+        </h2>
+        <p>{{ if eq .type "post" }}{{ .summary | safeHTML }}{{ else }}{{ .summary }}{{ end }}</p>
+        <div class="post-meta">
+          {{ if eq .type "post" }}
+            {{ with .categories }}<span class="categories">{{ range . }}<a href="{{ "categories/" | relURL }}{{ . | urlize }}/">{{ . }}</a> {{ end }}</span>{{ end }}
+            {{ with .author }}<span class="author">{{ . }}</span>{{ end }}
+          {{ else }}
+            <span class="categories"><a href="/local-projects/">Project Update</a></span>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+    {{ end }}
+
+  {{ else }}
+    {{/* Pages 2+: regular posts only */}}
+    {{ range $paginator.Pages }}
+    <article class="post-summary">
+      <div class="post-date">
+        <span class="month">{{ .Date.Format "Jan" }}</span>
+        <span class="day">{{ .Date.Format "2" }}</span>
+        <span class="year">{{ .Date.Format "2006" }}</span>
+      </div>
+      <div class="post-content">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Summary }}</p>
+        <div class="post-meta">
+          {{ with .Params.categories }}<span class="categories">{{ range . }}<a href="{{ "categories/" | relURL }}{{ . | urlize }}/">{{ . }}</a> {{ end }}</span>{{ end }}
+          {{ with .Params.author }}<span class="author">{{ . }}</span>{{ end }}
+        </div>
+      </div>
+    </article>
+    {{ end }}
   {{ end }}
 </div>
 

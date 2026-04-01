@@ -176,6 +176,17 @@ img { max-width: 100%; height: auto; }
   margin-right: 0.25rem;
 }
 
+/* === Project Updates on Homepage === */
+.post-summary.project-update {
+  border-left: 3px solid #16a34a;
+  padding-left: 1rem;
+}
+.post-content h2 .project-status {
+  font-size: 0.65rem;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+}
+
 /* === Single Post === */
 .single-post { max-width: 800px; }
 .post-header { margin-bottom: 1.5rem; }
