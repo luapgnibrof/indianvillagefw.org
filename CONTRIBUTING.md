@@ -241,3 +241,21 @@ Meeting adjourned at 8:15 PM.
 - **GitHub repo**: https://github.com/luapgnibrof/indianvillagefw.org
 - **Posts folder** (add/edit here): https://github.com/luapgnibrof/indianvillagefw.org/tree/main/content/posts
 - **Build status**: https://github.com/luapgnibrof/indianvillagefw.org/actions
+
+---
+
+## Quick-Start: Post a Financial Report
+
+Click the link below to open a new file on GitHub with the financial report template pre-filled. You'll just need to update the title, date, and numbers.
+
+**[Click here to start a new financial report](https://github.com/luapgnibrof/indianvillagefw.org/new/main?filename=content/posts/YYYY-MM-DD-financial-report-MONTH-YEAR.md&value=---%0Atitle%3A%20%22Financial%20Report%20-%20%22%0Adate%3A%202026-01-01T00%3A00%3A00-04%3A00%0Aauthor%3A%20%22Monica%20Hadsall%22%0Acategories%3A%20%5B%22Financial%22%5D%0Atags%3A%20%5B%22financial%20report%22%2C%20%22treasurer%22%5D%0A---%0A%0AThis%20report%20contains%20the%20full%20and%20complete%20financial%20information%20we%20have%20available%2C%20collected%20from%20bank%20account%20balances%2C%20all%20sources%20of%20income%2C%20and%20all%20expenses%20for%20the%20previous%20month.%0A%0ABeginning%20balance%20from%20%3A%20%2A%2A%24%2A%2A%0A%0A%2A%2AIncome%3A%2A%2A%0A-%20Dues%20received%3A%20%24%0A%0A%2A%2AExpenses%3A%2A%2A%0A-%20AEP%20entrance%20monument%20lights%3A%20-%24%0A%0A%2A%2AEnding%20total%3A%20%24%2A%2A%0A)**
+
+Once the page opens:
+
+1. **Rename the file** — replace `YYYY-MM-DD-financial-report-MONTH-YEAR.md` with the actual date, e.g. `2026-04-01-financial-report-march-2026.md`
+2. **Update the title** — e.g. `Financial Report - March 2026`
+3. **Update the date** — e.g. `2026-04-01T00:00:00-04:00`
+4. **Fill in the numbers**
+5. Click **"Commit changes..."** → **"Commit directly to the main branch"** → **"Commit changes"**
+
+The site will be live within about 1 minute.
