@@ -27,7 +27,11 @@ categories:
 
   - name: "Gardening & Landscaping"
     slug: "gardening"
-    businesses: []
+    businesses:
+      - name: "SnapShot Landscaping"
+        description: "Fort Wayne-grown, fully insured landscaping business specializing in hardscapes and softscapes. Operated by Carson Salkeld."
+        phone: "(260) 446-5488"
+        website: "https://snapshotfw.com"
 
   - name: "Health & Beauty"
     slug: "health"

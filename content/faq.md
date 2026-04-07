@@ -85,7 +85,7 @@ Yes. [Pocahontas Swim Club (Poco Pool)](https://pocopool.org/) is located at 302
 
 **How do I stay informed?**
 
-- **Newsletter:** [Subscribe to monthly emails](https://eepurl.com/hHlH_P)
+- **Newsletter:** [Subscribe to emails](https://eepurl.com/hHlH_P)
 - **Facebook:** [Indian Village Community Association group](https://www.facebook.com/groups/indianvillagefw)
 - **NextDoor:** [nextdoor.com](https://nextdoor.com/)
 - **This website:** Bookmark [indianvillagefw.org](https://indianvillagefw.org/) for news, documents, and resources

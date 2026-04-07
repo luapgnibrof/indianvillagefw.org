@@ -35,7 +35,7 @@ To join, pay dues, or just introduce yourself: [email the board](mailto:board@in
 
 ## Stay Connected
 
-- **Monthly Newsletter:** [Subscribe here](https://eepurl.com/hHlH_P) to receive neighborhood news by email
+- **Newsletter:** [Subscribe here](https://eepurl.com/hHlH_P) to receive important neighborhood news by email
 - **Facebook:** [Indian Village Community Association group](https://www.facebook.com/groups/indianvillagefw) — the most active online discussion space
 - **NextDoor:** [nextdoor.com](https://nextdoor.com/) — another option for neighborhood-level conversations
 - **This Website:** [indianvillagefw.org](https://indianvillagefw.org/) — official IVCA news, documents, and resources
