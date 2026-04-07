@@ -32,6 +32,13 @@ categories:
         description: "Fort Wayne-grown, fully insured landscaping business specializing in hardscapes and softscapes. Operated by Carson Salkeld."
         phone: "(260) 446-5488"
         website: "https://snapshotfw.com"
+      - name: "Smith Mow and Go LLC"
+        description: "Family-owned, fully insured landscaping company offering mowing, mulch, gravel, edging, seasonal contracts, snow removal, property cleanouts, and junk hauling. Free estimates."
+        phone: "(260) 385-1739"
+        website: "https://smithmowgo.com"
+      - name: "T.H.T. Services"
+        description: "Mowing, lawn cleanup, and hauling services."
+        phone: "(260) 417-8853"
 
   - name: "Health & Beauty"
     slug: "health"
@@ -47,7 +54,10 @@ categories:
 
   - name: "Maintenance & Repair"
     slug: "maintenance"
-    businesses: []
+    businesses:
+      - name: "D&J Sharpening Service"
+        description: "Knife and tool sharpening. Kitchen knives, pocket knives, scissors, mower blades, axes, garden shears, serrated knives, dog grooming shears, salon/barber shears, hedge trimmers, and more. Text for pricing and availability. Owner: Jared Shockey."
+        phone: "(859) 582-6474"
 
   - name: "Pet Services"
     slug: "pets"
