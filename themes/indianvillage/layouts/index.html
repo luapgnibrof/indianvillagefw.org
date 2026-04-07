@@ -24,10 +24,32 @@
 
   {{ if eq $paginator.PageNumber 1 }}
     {{/* Page 1: interleave project updates with posts, sorted by date */}}
+    {{ $now := now }}
+
+    {{/* Find the URL of the single nearest upcoming Event post */}}
+    {{ $nearestEventURL := "" }}
+    {{ $futureEvents := slice }}
+    {{ range where .Site.RegularPages "Section" "posts" }}
+      {{ if and (in .Params.categories "Event") (.Date.After $now) }}
+        {{ $futureEvents = $futureEvents | append . }}
+      {{ end }}
+    {{ end }}
+    {{ if $futureEvents }}
+      {{ $nearestEventURL = (index (sort $futureEvents "Date") 0).RelPermalink }}
+    {{ end }}
+
     {{ $items := slice }}
 
     {{ range $paginator.Pages }}
-      {{ $items = $items | append (dict "date" .Date "title" .Title "summary" .Summary "url" .RelPermalink "type" "post" "categories" .Params.categories "author" .Params.author) }}
+      {{ $isFutureEvent := and (in .Params.categories "Event") (.Date.After $now) }}
+      {{ if $isFutureEvent }}
+        {{/* Only include the nearest upcoming Event, skip the rest */}}
+        {{ if eq .RelPermalink $nearestEventURL }}
+          {{ $items = $items | append (dict "date" .Date "title" .Title "summary" .Summary "url" .RelPermalink "type" "post" "categories" .Params.categories "author" .Params.author) }}
+        {{ end }}
+      {{ else }}
+        {{ $items = $items | append (dict "date" .Date "title" .Title "summary" .Summary "url" .RelPermalink "type" "post" "categories" .Params.categories "author" .Params.author) }}
+      {{ end }}
     {{ end }}
 
     {{ range (hugo.Data.projects).projects }}

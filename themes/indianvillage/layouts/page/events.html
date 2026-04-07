@@ -3,19 +3,43 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 
+  {{ $now := now }}
   {{ $events := where (where .Site.RegularPages "Params.categories" "intersect" (slice "Event")) "Section" "posts" }}
-  {{ if $events }}
-    {{ $grouped := $events.GroupByDate "2006" }}
-    {{ range $grouped }}
-    <h2>{{ .Key }}</h2>
-    <ul>
-      {{ range .Pages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> &mdash; {{ .Date.Format "January 2, 2006" }}</li>
-      {{ end }}
-    </ul>
+
+  {{/* Split into upcoming and past */}}
+  {{ $upcoming := slice }}
+  {{ $past := slice }}
+  {{ range $events }}
+    {{ if .Date.After $now }}
+      {{ $upcoming = $upcoming | append . }}
+    {{ else }}
+      {{ $past = $past | append . }}
     {{ end }}
-  {{ else }}
-    <p>No events have been posted yet. Check back soon!</p>
   {{ end }}
+
+  <h2 class="events-section-heading">Upcoming Events</h2>
+  {{ if $upcoming }}
+  <ul>
+    {{ range sort $upcoming "Date" }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> &mdash; {{ .Date.Format "January 2, 2006" }}</li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <p>No upcoming events at this time. Check back soon!</p>
+  {{ end }}
+
+  {{ if $past }}
+  <h2 class="events-section-heading">Past Events</h2>
+  {{ $grouped := $past.GroupByDate "2006" }}
+  {{ range $grouped }}
+  <h3>{{ .Key }}</h3>
+  <ul>
+    {{ range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> &mdash; {{ .Date.Format "January 2, 2006" }}</li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  {{ end }}
+
 </div>
 {{ end }}
