@@ -70,7 +70,8 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify
+            --minify \
+            --buildFuture
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

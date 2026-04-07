@@ -4,6 +4,7 @@ title = 'Historic Indian Village'
 theme = 'indianvillage'
 paginate = 10
 enableRobotsTXT = true
+buildFuture = true
 
 [params]
   subtitle = 'Waynedale, Fort Wayne, Indiana'
