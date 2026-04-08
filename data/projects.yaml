@@ -1,148 +1,158 @@
 projects:
-  - name: "Bluffton Road Bridge Reconstruction"
-    slug: "bluffton-bridge"
-    status: "active"
-    status_label: "Under Construction"
-    agency: "City of Fort Wayne Public Works"
-    funding: "Federally funded"
-    timeline: "Early 2025 – Summer 2026"
-    updated: "2026-03-19"
-    engage_url: "https://engage.cityoffortwayne.org/bluffton-road-bridge"
-    latest_update: "March 19, 2026 — Construction will resume on March 30th with work along the East side of Broadway. A new traffic pattern will be in effect for several weeks while the intersection is resurfaced. Bridge work ongoing April to May. Completion and full reopening expected by around the beginning of June."
-    summary: "The Bluffton Road Bridge over the St. Mary's River is being completely reconstructed after a 2020 inspection forced a 12-ton weight limit on the aging structure. The project replaces the bridge superstructure and adds major pedestrian and bicycle improvements."
-    neighborhood_impact: "Construction resumes March 30, 2026 with work on the east side of Broadway. A new traffic pattern will be in effect for several weeks while the intersection is resurfaced. Bridge work continues through April and May, with full completion expected by early June 2026. The Meet the Contractor meeting was held at Indian Village Park's Sears Pavilion in January 2025."
-    features:
-      - "New support beams, pier caps, and concrete deck"
-      - "Wider trails over bridge (5 ft expanded to 8+ ft) with paths on both sides"
-      - "Eight overlook areas with see-through railing"
-      - "Decorative ornamental lighting on barrier walls"
-      - "New trail under the bridge with lighting"
-      - "Improved Broadway & Bluffton intersection with ADA crosswalks"
-      - "Trail/sidewalk roundabout at SW corner"
-      - "Scour protection in the river"
-    key_dates:
-      - date: "January 2020"
-        event: "Bridge inspection reveals safety issues; 12-ton weight limit imposed"
-      - date: "February 2022"
-        event: "First public information meeting"
-      - date: "April 2024"
-        event: "Public open-house with renderings and timeline at Sears Pavilion"
-      - date: "Early 2025"
-        event: "Construction begins — Phase I (south half beam replacement)"
-      - date: "Late Summer 2025"
-        event: "Phase II begins — north half beam replacement"
-      - date: "March 30, 2026"
-        iso: "2026-03-30"
-        event: "Construction resumes after winter; Broadway intersection work"
-      - date: "June 2026"
-        event: "Expected completion and full reopening"
-    links:
-      - label: "City Project Page"
-        url: "https://engage.cityoffortwayne.org/bluffton-road-bridge"
-      - label: "Waynedale News Coverage"
-        url: "https://waynedalenews.com/?s=bluffton+road+bridge"
-
-  - name: "Bluffton Road NIPSCO Gas Pipeline"
-    slug: "bluffton-nipsco"
-    status: "active"
-    status_label: "Under Construction"
-    agency: "NIPSCO"
-    funding: "NIPSCO (utility project)"
-    timeline: "Early 2026 – June 2026"
-    updated: "2026-02-27"
-    summary: "NIPSCO is constructing a new natural gas pipeline and automated monitoring stations along Bluffton and Old Trail Roads. The project involves months of intermittent lane closures and road restrictions along one of the area's busiest corridors, which sees around 30,000 vehicles per day."
-    neighborhood_impact: "Detour routes direct traffic outside Waynedale's primary business districts, raising concerns among local shop owners about reduced foot traffic. The planned full closure of Old Trail Road (April 20 – June 23) directly overlaps the community's 65+ year Memorial Day Parade tradition on May 25. As of late February 2026, neither NIPSCO nor the city had confirmed whether parade accommodations would be made."
-    features:
-      - "New natural gas pipeline along Bluffton and Old Trail Roads"
-      - "Automated pipeline monitoring and control stations"
-      - "Gas main installation between Ferguson and Winters Roads"
-      - "Gas main repair from Winters to Pleasant Center Road"
-    key_dates:
-      - date: "Now – May 20"
-        event: "Southbound Bluffton Road traffic impacts (Winchester to Pleasant Center)"
-      - date: "April 20 – May 19"
-        event: "Northbound Bluffton Road restrictions"
-      - date: "April 20 – June 23"
-        event: "Full closure of Old Trail Road"
-      - date: "Through April 24"
-        event: "Gas main installation between Ferguson and Winters Roads"
-      - date: "Through April 18"
-        event: "Gas main repair from Winters to Pleasant Center Road"
-    links:
-      - label: "Waynedale News Article"
-        url: "https://waynedalenews.com/2026/02/the-waynedale-community-navigates-bluffton-road-construction/"
-
-  - name: "Illinois Road Trail & Road Improvement"
-    slug: "illinois-trail"
-    status: "active"
-    status_label: "Just Started"
-    agency: "City of Fort Wayne Public Works"
-    funding: "$1 million from Indiana Next Level Trails"
-    timeline: "March 2026 – Fall 2027"
-    updated: "2026-03-25"
-    engage_url: "https://engage.cityoffortwayne.org/illinois-road-trail"
-    latest_update: "March 25, 2026 — Meet the Contractor meeting held. Construction began March 23, 2026. Four phases planned; road work proceeds west to east, trail work begins in April across all phases."
-    summary: "A nearly two-mile trail extending from Rockhill Park to the intersection of Getz Road and Illinois Road, plus resurfacing of Illinois Road and improvements to four intersections. The trail will connect users to Parkwest Shopping Center, Jefferson Pointe, and numerous businesses along the Illinois Road corridor."
-    neighborhood_impact: "While not directly within Indian Village, the Illinois Road Trail extends the regional trail network that neighbors can access. It connects to the Towpath Trail, Yarnelle Trail, Getz Road sidewalk, and Ardmore Avenue Trail — building a more connected trail system on Fort Wayne's southwest side. Road resurfacing will proceed in four phases from west to east, so expect intermittent traffic impacts on Illinois Road through 2027."
-    features:
-      - "Nearly 2-mile paved trail from Rockhill Park to Getz Road & Illinois Road"
-      - "Connects to Towpath Trail, Yarnelle Trail, Getz Road sidewalk, and Ardmore Avenue Trail"
-      - "Illinois Road resurfacing"
-      - "Four intersection improvements"
-      - "Access to Parkwest Shopping Center and Jefferson Pointe"
-    key_dates:
-      - date: "September 2025"
-        event: "Construction bids opened"
-      - date: "October 2025"
-        event: "Notice to Proceed issued to Bunn Excavating"
-      - date: "March 25, 2026"
-        iso: "2026-03-25"
-        event: "Meet the Contractor public meeting"
-      - date: "March 23, 2026"
-        iso: "2026-03-23"
-        event: "Construction begins — Phase 1 of 4"
-      - date: "Fall 2027"
-        event: "Expected project completion"
-    links:
-      - label: "City Project Page"
-        url: "https://engage.cityoffortwayne.org/illinois-road-trail"
-
-  - name: "Poka-Bache Connector Trail (Bluffton Road)"
-    slug: "poka-bache"
-    status: "planned"
-    status_label: "In Design"
-    agency: "City of Fort Wayne Public Works"
-    funding: "State and federal (Poka-Bache Coalition)"
-    timeline: "Design 2025–2026 · Construction 2028–2029"
-    updated: "2026-03-27"
-    engage_url: "https://engage.cityoffortwayne.org/poka-bache-connector-trail"
-    latest_update: "Public information meeting scheduled for April 8, 2026 at 6 PM at Waynedale United Methodist Church. Design phase underway with engineering consultant DLZ. Construction to begin in 2028."
-    summary: "A 2.1-mile, 10-foot-wide asphalt trail along the east side of Bluffton Road from Ferguson Road to Lower Huntington Road. This is a local phase of the 82-mile Poka-Bache Connector — which will become the longest trail in Indiana, linking Pokagon State Park in Angola to Ouabache State Park in Bluffton."
-    neighborhood_impact: "This trail will run right along Bluffton Road through the Waynedale area, directly improving pedestrian and bicycle access for Indian Village residents. When completed, it will connect the neighborhood to the broader Poka-Bache trail system spanning four counties. A public information meeting is scheduled for April 8, 2026 at 6 PM at Waynedale United Methodist Church."
-    features:
-      - "2.1-mile, 10-foot-wide asphalt trail on east side of Bluffton Road"
-      - "Trailhead and rest area near Bluffton and Ferguson intersection"
-      - "Park benches approximately every half mile"
-      - "Prefabricated pedestrian bridge at Harber Ditch"
-      - "Traffic signal upgrades with accessible pedestrian signals"
-      - "Crosswalk and ADA improvements"
-      - "Pedestrian refuge island at Airport Expressway"
-    key_dates:
-      - date: "2025–2026"
-        event: "Design phase (engineering consultant DLZ)"
-      - date: "April 8, 2026"
-        iso: "2026-04-08"
-        event: "Public information meeting — 6 PM at Waynedale United Methodist Church"
-      - date: "2027"
-        event: "Land acquisition"
-      - date: "2028"
-        event: "Project bidding and construction begins"
-      - date: "2028–2029"
-        event: "Construction; anticipated completion"
-    links:
-      - label: "City Project Page"
-        url: "https://engage.cityoffortwayne.org/poka-bache-connector-trail"
-      - label: "Poka-Bache Connector Website"
-        url: "https://pokabacheconnectortrail.com/"
-      - label: "Fort Wayne Trails Info"
-        url: "https://fwtrails.org/poka-bache-connector/"
+- name: Bluffton Road Bridge Reconstruction
+  slug: bluffton-bridge
+  status: active
+  status_label: Under Construction
+  agency: City of Fort Wayne Public Works
+  funding: Federally funded
+  timeline: Early 2025 – Summer 2026
+  updated: '2026-04-08'
+  engage_url: https://engage.cityoffortwayne.org/bluffton-road-bridge
+  latest_update: "March 19, 2026 - Construction will resume on March 30th with work along the East side of Broadway starting the week of Spring Break. A new traffic pattern will be in effect for several\
+    \ weeks while the intersection is resurfaced. Work on the bridge will be ongoing April to May. We anticipate completion of construction and reopening of the full extent of the bridge by around the beginning\
+    \ of June."
+  summary: "The Bluffton Road Bridge over the St. Mary's River is being completely reconstructed after a 2020 inspection forced a 12-ton weight limit on the aging structure. The project replaces the bridge\
+    \ superstructure and adds major pedestrian and bicycle improvements."
+  neighborhood_impact: "Construction resumes March 30, 2026 with work on the east side of Broadway. A new traffic pattern will be in effect for several weeks while the intersection is resurfaced. Bridge\
+    \ work continues through April and May, with full completion expected by early June 2026. The Meet the Contractor meeting was held at Indian Village Park's Sears Pavilion in January 2025."
+  features:
+  - New support beams, pier caps, and concrete deck
+  - Wider trails over bridge (5 ft expanded to 8+ ft) with paths on both sides
+  - Eight overlook areas with see-through railing
+  - Decorative ornamental lighting on barrier walls
+  - New trail under the bridge with lighting
+  - Improved Broadway & Bluffton intersection with ADA crosswalks
+  - Trail/sidewalk roundabout at SW corner
+  - Scour protection in the river
+  key_dates:
+  - date: January 2020
+    event: Bridge inspection reveals safety issues; 12-ton weight limit imposed
+  - date: February 2022
+    event: First public information meeting
+  - date: April 2024
+    event: Public open-house with renderings and timeline at Sears Pavilion
+  - date: Early 2025
+    event: Construction begins — Phase I (south half beam replacement)
+  - date: Late Summer 2025
+    event: Phase II begins — north half beam replacement
+  - date: March 30, 2026
+    iso: '2026-03-30'
+    event: Construction resumes after winter; Broadway intersection work
+  - date: June 2026
+    event: Expected completion and full reopening
+  links:
+  - label: City Project Page
+    url: https://engage.cityoffortwayne.org/bluffton-road-bridge
+  - label: Waynedale News Coverage
+    url: https://waynedalenews.com/?s=bluffton+road+bridge
+- name: Bluffton Road NIPSCO Gas Pipeline
+  slug: bluffton-nipsco
+  status: active
+  status_label: Under Construction
+  agency: NIPSCO
+  funding: NIPSCO (utility project)
+  timeline: Early 2026 – June 2026
+  updated: '2026-02-27'
+  summary: "NIPSCO is constructing a new natural gas pipeline and automated monitoring stations along Bluffton and Old Trail Roads. The project involves months of intermittent lane closures and road restrictions\
+    \ along one of the area's busiest corridors, which sees around 30,000 vehicles per day."
+  neighborhood_impact: "Detour routes direct traffic outside Waynedale's primary business districts, raising concerns among local shop owners about reduced foot traffic. The planned full closure of Old\
+    \ Trail Road (April 20 – June 23) directly overlaps the community's 65+ year Memorial Day Parade tradition on May 25. As of late February 2026, neither NIPSCO nor the city had confirmed whether parade\
+    \ accommodations would be made."
+  features:
+  - New natural gas pipeline along Bluffton and Old Trail Roads
+  - Automated pipeline monitoring and control stations
+  - Gas main installation between Ferguson and Winters Roads
+  - Gas main repair from Winters to Pleasant Center Road
+  key_dates:
+  - date: Now – May 20
+    event: Southbound Bluffton Road traffic impacts (Winchester to Pleasant Center)
+  - date: April 20 – May 19
+    event: Northbound Bluffton Road restrictions
+  - date: April 20 – June 23
+    event: Full closure of Old Trail Road
+  - date: Through April 24
+    event: Gas main installation between Ferguson and Winters Roads
+  - date: Through April 18
+    event: Gas main repair from Winters to Pleasant Center Road
+  links:
+  - label: Waynedale News Article
+    url: https://waynedalenews.com/2026/02/the-waynedale-community-navigates-bluffton-road-construction/
+- name: Illinois Road Trail & Road Improvement
+  slug: illinois-trail
+  status: active
+  status_label: Just Started
+  agency: City of Fort Wayne Public Works
+  funding: $1 million from Indiana Next Level Trails
+  timeline: March 2026 – Fall 2027
+  updated: '2026-04-08'
+  engage_url: https://engage.cityoffortwayne.org/illinois-road-trail
+  latest_update: Project Construction Construction began on March 23rd.
+  summary: "A nearly two-mile trail extending from Rockhill Park to the intersection of Getz Road and Illinois Road, plus resurfacing of Illinois Road and improvements to four intersections. The trail will\
+    \ connect users to Parkwest Shopping Center, Jefferson Pointe, and numerous businesses along the Illinois Road corridor."
+  neighborhood_impact: "While not directly within Indian Village, the Illinois Road Trail extends the regional trail network that neighbors can access. It connects to the Towpath Trail, Yarnelle Trail,\
+    \ Getz Road sidewalk, and Ardmore Avenue Trail — building a more connected trail system on Fort Wayne's southwest side. Road resurfacing will proceed in four phases from west to east, so expect intermittent\
+    \ traffic impacts on Illinois Road through 2027."
+  features:
+  - Nearly 2-mile paved trail from Rockhill Park to Getz Road & Illinois Road
+  - Connects to Towpath Trail, Yarnelle Trail, Getz Road sidewalk, and Ardmore Avenue Trail
+  - Illinois Road resurfacing
+  - Four intersection improvements
+  - Access to Parkwest Shopping Center and Jefferson Pointe
+  key_dates:
+  - date: September 2025
+    event: Construction bids opened
+  - date: October 2025
+    event: Notice to Proceed issued to Bunn Excavating
+  - date: March 25, 2026
+    iso: '2026-03-25'
+    event: Meet the Contractor public meeting
+  - date: March 23, 2026
+    iso: '2026-03-23'
+    event: Construction begins — Phase 1 of 4
+  - date: Fall 2027
+    event: Expected project completion
+  links:
+  - label: City Project Page
+    url: https://engage.cityoffortwayne.org/illinois-road-trail
+- name: Poka-Bache Connector Trail (Bluffton Road)
+  slug: poka-bache
+  status: planned
+  status_label: In Design
+  agency: City of Fort Wayne Public Works
+  funding: State and federal (Poka-Bache Coalition)
+  timeline: Design 2025–2026 · Construction 2028–2029
+  updated: '2026-04-08'
+  engage_url: https://engage.cityoffortwayne.org/poka-bache-connector-trail
+  latest_update: "Public Involvement Meeting A public information meeting will be held at 6 pm on April 8, 2026, at the Waynedale United Methodist Church Fellowship Hall, 2501 Church Street. Please park\
+    \ in the back and enter Door No 1 by the playground. | Design 2025-2026"
+  summary: "A 2.1-mile, 10-foot-wide asphalt trail along the east side of Bluffton Road from Ferguson Road to Lower Huntington Road. This is a local phase of the 82-mile Poka-Bache Connector — which will\
+    \ become the longest trail in Indiana, linking Pokagon State Park in Angola to Ouabache State Park in Bluffton."
+  neighborhood_impact: "This trail will run right along Bluffton Road through the Waynedale area, directly improving pedestrian and bicycle access for Indian Village residents. When completed, it will connect\
+    \ the neighborhood to the broader Poka-Bache trail system spanning four counties. A public information meeting is scheduled for April 8, 2026 at 6 PM at Waynedale United Methodist Church."
+  features:
+  - 2.1-mile, 10-foot-wide asphalt trail on east side of Bluffton Road
+  - Trailhead and rest area near Bluffton and Ferguson intersection
+  - Park benches approximately every half mile
+  - Prefabricated pedestrian bridge at Harber Ditch
+  - Traffic signal upgrades with accessible pedestrian signals
+  - Crosswalk and ADA improvements
+  - Pedestrian refuge island at Airport Expressway
+  key_dates:
+  - date: 2025–2026
+    event: Design phase (engineering consultant DLZ)
+  - date: April 8, 2026
+    iso: '2026-04-08'
+    event: Public information meeting — 6 PM at Waynedale United Methodist Church
+  - date: '2027'
+    event: Land acquisition
+  - date: '2028'
+    event: Project bidding and construction begins
+  - date: 2028–2029
+    event: Construction; anticipated completion
+  links:
+  - label: City Project Page
+    url: https://engage.cityoffortwayne.org/poka-bache-connector-trail
+  - label: Poka-Bache Connector Website
+    url: https://pokabacheconnectortrail.com/
+  - label: Fort Wayne Trails Info
+    url: https://fwtrails.org/poka-bache-connector/
