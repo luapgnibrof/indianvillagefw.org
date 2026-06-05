@@ -46,35 +46,37 @@ projects:
 - name: Bluffton Road NIPSCO Gas Pipeline
   slug: bluffton-nipsco
   status: active
-  status_label: Under Construction
+  status_label: Wrapping Up
   agency: NIPSCO
   funding: NIPSCO (utility project)
   timeline: Early 2026 – June 2026
-  updated: '2026-02-27'
-  summary: "NIPSCO is constructing a new natural gas pipeline and automated monitoring stations along Bluffton and Old Trail Roads. The project involves months of intermittent lane closures and road restrictions\
-    \ along one of the area's busiest corridors, which sees around 30,000 vehicles per day."
-  neighborhood_impact: "Detour routes direct traffic outside Waynedale's primary business districts, raising concerns among local shop owners about reduced foot traffic. The planned full closure of Old\
-    \ Trail Road (April 20 – June 23) directly overlaps the community's 65+ year Memorial Day Parade tradition on May 25. As of late February 2026, neither NIPSCO nor the city had confirmed whether parade\
-    \ accommodations would be made."
+  updated: '2026-06-05'
+  latest_update: "June 2026 — Old Trail Road remains closed between Lower Huntington Road and Bella Vista Boulevard through June 22. Bluffton Road lane restrictions ended in May. The Memorial Day Parade proceeded as planned after NIPSCO delayed Old Trail Road work until after May 25."
+  summary: "NIPSCO is constructing a new natural gas pipeline and automated monitoring stations along Bluffton and Old Trail Roads. The project involves months of intermittent lane closures and road restrictions along one of the area's busiest corridors, which sees around 30,000 vehicles per day."
+  neighborhood_impact: "Old Trail Road is closed between Lower Huntington Road and Bella Vista Boulevard through June 22 for gas line installation. Bluffton Road lane restrictions ended in May. NIPSCO worked with community stakeholders to delay Old Trail Road construction until after the May 25 Memorial Day Parade, which proceeded as planned."
   features:
   - New natural gas pipeline along Bluffton and Old Trail Roads
   - Automated pipeline monitoring and control stations
   - Gas main installation between Ferguson and Winters Roads
   - Gas main repair from Winters to Pleasant Center Road
   key_dates:
-  - date: Now – May 20
-    event: Southbound Bluffton Road traffic impacts (Winchester to Pleasant Center)
+  - date: Through May 20
+    event: Southbound Bluffton Road traffic impacts (Winchester to Pleasant Center) — complete
   - date: April 20 – May 19
-    event: Northbound Bluffton Road restrictions
-  - date: April 20 – June 23
-    event: Full closure of Old Trail Road
-  - date: Through April 24
-    event: Gas main installation between Ferguson and Winters Roads
-  - date: Through April 18
-    event: Gas main repair from Winters to Pleasant Center Road
+    event: Northbound Bluffton Road restrictions — complete
+  - date: May 25
+    event: Memorial Day Parade — proceeded as planned (NIPSCO delayed Old Trail work)
+  - date: April 29 – June 22
+    event: Full closure of Old Trail Road (Lower Huntington to Bella Vista Blvd)
+  - date: Through mid-May
+    event: Gas main work at Ferguson & Bluffton Road intersection — complete
   links:
-  - label: Waynedale News Article
+  - label: Waynedale News — Feb 2026
     url: https://waynedalenews.com/2026/02/the-waynedale-community-navigates-bluffton-road-construction/
+  - label: Memorial Day Parade Update
+    url: https://waynedalenews.com/2026/05/waynedales-memorial-day-parade-to-march-on-after-all/
+  - label: Old Trail Road Closure (21Alive)
+    url: https://www.21alivenews.com/2026/04/23/months-long-road-closure-coming-waynedale/
 - name: Illinois Road Trail & Road Improvement
   slug: illinois-trail
   status: active
