@@ -94,7 +94,7 @@ If you'll be posting regularly, working locally lets you preview changes before 
 3. Preview locally:
 
    ```
-   hugo server
+   hugo server --buildFuture
    ```
 
    Open http://localhost:1313 in your browser. Changes auto-reload as you save.
@@ -124,22 +124,112 @@ categories: ["Financial"]
 ---
 ```
 
-| Field        | What to put                                                              |
-|-------------|--------------------------------------------------------------------------|
-| `title`     | The post title, in quotes                                                |
-| `date`      | Publication date in `YYYY-MM-DDT00:00:00-04:00` format (Eastern time)    |
-| `author`    | Your name, in quotes                                                     |
-| `categories`| One of: `["Newsletter"]`, `["Financial"]`, `["HOA"]`, `["Event"]`, or `["Local News"]` |
+| Field | What to put |
+|-------|-------------|
+| `title` | The post title, in quotes |
+| `date` | Publication date in `YYYY-MM-DDT00:00:00-04:00` format (Eastern time) |
+| `author` | Your name, in quotes |
+| `categories` | One of: `["Newsletter"]`, `["Financial"]`, `["HOA"]`, `["Event"]`, or `["Local News"]` |
 
 ### Categories
 
-| Category      | Use for                                                  |
-|--------------|----------------------------------------------------------|
-| `Newsletter` | Monthly newsletters (link to Mailchimp archive)           |
-| `Financial`  | Monthly financial reports                                 |
-| `HOA`        | Board meeting minutes, bylaws, association announcements  |
-| `Event`      | Garage sales, community events, etc.                      |
-| `Local News` | News stories about Indian Village from local media        |
+| Category | Use for |
+|----------|---------|
+| `Newsletter` | Monthly newsletters (link to Mailchimp archive) |
+| `Financial` | Monthly financial reports |
+| `HOA` | Board meeting minutes, bylaws, association announcements |
+| `Event` | Garage sales, community events, parades, concerts |
+| `Local News` | News stories about Indian Village from local media |
+
+---
+
+## Adding an Event Post
+
+Event posts work just like regular posts but use `categories: ["Event"]`. The site automatically finds the next upcoming event and displays it in a highlighted box at the top of the homepage — no extra work needed.
+
+**How it works:**
+- Use the actual event date as the post's `date` field
+- The site always shows the single nearest upcoming event in the callout box
+- Once that event's date passes, the callout automatically advances to the next upcoming event
+- If there are no upcoming events, the callout disappears on its own
+
+**Example — garage sale:**
+
+```
+---
+title: "Neighborhood Garage Sale — June 13, 2026"
+date: 2026-06-13T00:00:00-04:00
+author: "IVCA Volunteers"
+categories: ["Event"]
+tags: ["garage sale"]
+---
+
+The Indian Village neighborhood garage sale is this Saturday, June 13, 2026.
+
+Residents are encouraged to set up sales at their homes throughout the neighborhood.
+```
+
+**Example — recurring event (concert series):**
+
+For multi-date events like a summer concert series, use today's date (not a future date) so it appears in the regular feed without taking over the event callout.
+
+---
+
+## Updating Local Projects
+
+The **Local Projects** page is managed through a data file at `data/projects.yaml`. The automated system updates it weekly for projects on the city's Engage Fort Wayne platform, but you can also update it manually at any time.
+
+### What each field does
+
+| Field | What to change |
+|-------|----------------|
+| `status` | `active` = green badge, `planned` = blue badge, `completed` = grey badge |
+| `status_label` | The text inside the badge. Change to reflect current phase, e.g. `"In Progress"`, `"Complete"` |
+| `latest_update` | Short one-liner shown on the homepage feed. Keep it to one or two sentences. |
+| `updated` | Today's date in `YYYY-MM-DD` format |
+| `neighborhood_impact` | Longer description shown on the projects detail page |
+
+### How to edit on GitHub
+
+1. Go to https://github.com/luapgnibrof/indianvillagefw.org
+2. Click on the **data/** folder, then **projects.yaml**
+3. Click the pencil icon to edit
+4. Find the project you want to update and change the relevant fields
+5. Commit the changes — the site will update within ~1 minute
+
+### Example: marking a project complete
+
+```yaml
+status: "completed"
+status_label: "Complete"
+updated: "2026-06-05"
+latest_update: "June 2026 — Construction is complete. All lanes are open."
+```
+
+---
+
+## Automated Pull Requests
+
+The site runs two weekly automations that may send you a pull request notification on GitHub:
+
+### Monday — Local News
+
+Every Monday morning the system searches for news articles mentioning Indian Village and creates draft posts for any new ones it finds. If it finds something, GitHub will open a pull request called **"New local news articles found"**.
+
+**What to do:**
+- Go to https://github.com/luapgnibrof/indianvillagefw.org/pulls
+- Review the draft posts in the PR
+- If the articles look relevant, click **"Merge pull request"** to publish them
+- If they're not relevant, click **"Close pull request"** to discard
+
+### Wednesday — Project Updates
+
+Every Wednesday morning the system checks the City's Engage Fort Wayne pages for construction updates. If it finds new text, it opens a pull request called **"Local project updates found"**.
+
+**What to do:**
+- Review the updated text in the PR — the script extracts text from the project pages, so it may occasionally pull in imprecise or garbled text
+- If the update looks accurate, merge it
+- If the text needs cleaning up, edit `data/projects.yaml` directly (or edit the file in the PR branch) before merging
 
 ---
 
@@ -147,17 +237,18 @@ categories: ["Financial"]
 
 Here's how to format your post content:
 
-| What you want         | What you type                          | What it looks like          |
-|----------------------|----------------------------------------|-----------------------------|
-| Bold text            | `**bold text**`                        | **bold text**               |
-| Italic text          | `*italic text*`                        | *italic text*               |
-| Link                 | `[link text](https://example.com)`     | [link text](https://example.com) |
-| Heading              | `## Section Title`                     | (large bold heading)        |
-| Smaller heading      | `### Subsection`                       | (medium bold heading)       |
-| Bulleted list        | `- Item one`                           | - Item one                  |
-| Numbered list        | `1. First item`                        | 1. First item               |
-| Horizontal line      | `---`                                  | (divider line)              |
-| Blockquote           | `> quoted text`                        | > quoted text               |
+| What you want | What you type | What it looks like |
+|--------------|---------------|--------------------|
+| Bold text | `**bold text**` | **bold text** |
+| Italic text | `*italic text*` | *italic text* |
+| Link | `[link text](https://example.com)` | [link text](https://example.com) |
+| Heading | `## Section Title` | (large bold heading) |
+| Smaller heading | `### Subsection` | (medium bold heading) |
+| Bulleted list | `- Item one` | - Item one |
+| Numbered list | `1. First item` | 1. First item |
+| Horizontal line | `---` | (divider line) |
+| Blockquote | `> quoted text` | > quoted text |
+| Table row | `\| Col 1 \| Col 2 \|` | (table) |
 
 ### Example: Financial Report Post
 
@@ -221,14 +312,24 @@ Meeting adjourned at 8:15 PM.
 **My post isn't showing up on the site.**
 - Make sure the file is in the `content/posts/` folder (not somewhere else)
 - Check that the filename ends in `.md`
-- Verify the date in the front matter is not in the future
-- Wait 1-2 minutes for the build to complete
+- Wait 1-2 minutes for the build to complete — check [build status](https://github.com/luapgnibrof/indianvillagefw.org/actions)
+- Note: future-dated posts *do* appear on the site (the build includes them), so a future date is fine for upcoming events
+
+**The homepage callout is showing the wrong event.**
+- The callout always shows the single nearest event with a future date. Check that older event posts don't have future dates by mistake.
 
 **I made a mistake in a post.**
 - Just edit the file again and save/commit. The site will rebuild automatically.
 
 **I want to remove a post.**
 - Delete the file from `content/posts/` on GitHub or locally, then commit and push.
+
+**The automated project update PR has garbled text.**
+- Close the PR without merging. Edit `data/projects.yaml` directly with accurate information instead.
+
+**A workflow is failing / the site didn't deploy.**
+- Check https://github.com/luapgnibrof/indianvillagefw.org/actions for error details
+- If the deploy fails with "not permitted to create pull requests": go to Settings → Actions → General → enable *Read and write permissions* and *Allow GitHub Actions to create and approve pull requests*
 
 **I need help.**
 - Contact Paul at board@indianvillagefw.org
@@ -240,6 +341,8 @@ Meeting adjourned at 8:15 PM.
 - **Website**: https://indianvillagefw.org
 - **GitHub repo**: https://github.com/luapgnibrof/indianvillagefw.org
 - **Posts folder** (add/edit here): https://github.com/luapgnibrof/indianvillagefw.org/tree/main/content/posts
+- **Projects data**: https://github.com/luapgnibrof/indianvillagefw.org/blob/main/data/projects.yaml
+- **Open pull requests**: https://github.com/luapgnibrof/indianvillagefw.org/pulls
 - **Build status**: https://github.com/luapgnibrof/indianvillagefw.org/actions
 
 ---
