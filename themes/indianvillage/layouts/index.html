@@ -26,27 +26,37 @@
     {{/* Page 1: interleave project updates with posts, sorted by date */}}
     {{ $now := now }}
 
-    {{/* Find the URL of the single nearest upcoming Event post */}}
-    {{ $nearestEventURL := "" }}
+    {{/* Find the nearest upcoming Event post */}}
     {{ $futureEvents := slice }}
     {{ range where .Site.RegularPages "Section" "posts" }}
       {{ if and (in .Params.categories "Event") (.Date.After $now) }}
         {{ $futureEvents = $futureEvents | append . }}
       {{ end }}
     {{ end }}
+    {{ $nearestEvent := false }}
     {{ if $futureEvents }}
-      {{ $nearestEventURL = (index (sort $futureEvents "Date") 0).RelPermalink }}
+      {{ $nearestEvent = index (sort $futureEvents "Date") 0 }}
     {{ end }}
+
+    {{/* Upcoming event callout */}}
+    {{ with $nearestEvent }}
+    <div class="event-callout">
+      <span class="event-callout-badge">Upcoming Event</span>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p class="event-callout-date">{{ .Date.Format "Monday, January 2, 2006" }}</p>
+      {{ with .Summary }}<p class="event-callout-summary">{{ . | safeHTML }}</p>{{ end }}
+    </div>
+    {{ end }}
+
+    {{ $nearestEventURL := "" }}
+    {{ if $nearestEvent }}{{ $nearestEventURL = $nearestEvent.RelPermalink }}{{ end }}
 
     {{ $items := slice }}
 
     {{ range $paginator.Pages }}
       {{ $isFutureEvent := and (in .Params.categories "Event") (.Date.After $now) }}
       {{ if $isFutureEvent }}
-        {{/* Only include the nearest upcoming Event, skip the rest */}}
-        {{ if eq .RelPermalink $nearestEventURL }}
-          {{ $items = $items | append (dict "date" .Date "title" .Title "summary" .Summary "url" .RelPermalink "type" "post" "categories" .Params.categories "author" .Params.author) }}
-        {{ end }}
+        {{/* Future events are shown in the callout above; skip from regular feed */}}
       {{ else }}
         {{ $items = $items | append (dict "date" .Date "title" .Title "summary" .Summary "url" .RelPermalink "type" "post" "categories" .Params.categories "author" .Params.author) }}
       {{ end }}

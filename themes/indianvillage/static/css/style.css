@@ -176,6 +176,43 @@ img { max-width: 100%; height: auto; }
   margin-right: 0.25rem;
 }
 
+/* === Upcoming Event Callout === */
+.event-callout {
+  background: #fefce8;
+  border: 2px solid #d97706;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.75rem;
+}
+.event-callout-badge {
+  display: inline-block;
+  background: #d97706;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+}
+.event-callout h2 {
+  font-size: 1.15rem;
+  margin: 0.2rem 0 0.25rem;
+}
+.event-callout h2 a { color: #1e3a5f; }
+.event-callout h2 a:hover { color: #2563eb; }
+.event-callout-date {
+  color: #92400e;
+  font-size: 0.85rem;
+  margin: 0 0 0.35rem;
+}
+.event-callout-summary {
+  color: #555;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
 /* === Project Updates on Homepage === */
 .post-summary.project-update {
   border-left: 3px solid #16a34a;
