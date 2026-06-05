@@ -78,7 +78,7 @@ projects:
 - name: Illinois Road Trail & Road Improvement
   slug: illinois-trail
   status: active
-  status_label: Just Started
+  status_label: In Progress
   agency: City of Fort Wayne Public Works
   funding: $1 million from Indiana Next Level Trails
   timeline: March 2026 – Fall 2027
