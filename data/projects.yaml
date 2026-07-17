@@ -47,15 +47,15 @@ projects:
     url: https://www.21alivenews.com/2026/06/17/fort-wayne-holds-ribbon-cutting-open-bluffton-road-bridge/
 - name: Bluffton Road NIPSCO Gas Pipeline
   slug: bluffton-nipsco
-  status: active
-  status_label: Wrapping Up
+  status: completed
+  status_label: Complete
   agency: NIPSCO
   funding: NIPSCO (utility project)
   timeline: Early 2026 – June 2026
-  updated: '2026-06-05'
-  latest_update: "June 2026 — Old Trail Road remains closed between Lower Huntington Road and Bella Vista Boulevard through June 22. Bluffton Road lane restrictions ended in May. The Memorial Day Parade proceeded as planned after NIPSCO delayed Old Trail Road work until after May 25."
-  summary: "NIPSCO is constructing a new natural gas pipeline and automated monitoring stations along Bluffton and Old Trail Roads. The project involves months of intermittent lane closures and road restrictions along one of the area's busiest corridors, which sees around 30,000 vehicles per day."
-  neighborhood_impact: "Old Trail Road is closed between Lower Huntington Road and Bella Vista Boulevard through June 22 for gas line installation. Bluffton Road lane restrictions ended in May. NIPSCO worked with community stakeholders to delay Old Trail Road construction until after the May 25 Memorial Day Parade, which proceeded as planned."
+  updated: '2026-07-17'
+  latest_update: "July 2026 — Work has concluded. Lane restrictions and the Old Trail Road closure have ended."
+  summary: "NIPSCO has completed construction of a new natural gas pipeline and automated monitoring stations along Bluffton and Old Trail Roads. The project involved months of intermittent lane closures and road restrictions along one of the area's busiest corridors."
+  neighborhood_impact: "All NIPSCO construction work along Bluffton and Old Trail Roads has concluded. Lane restrictions and the Old Trail Road closure ended by late June 2026. NIPSCO worked with community stakeholders to delay Old Trail Road construction until after the May 25 Memorial Day Parade, which proceeded as planned."
   features:
   - New natural gas pipeline along Bluffton and Old Trail Roads
   - Automated pipeline monitoring and control stations
@@ -69,9 +69,11 @@ projects:
   - date: May 25
     event: Memorial Day Parade — proceeded as planned (NIPSCO delayed Old Trail work)
   - date: April 29 – June 22
-    event: Full closure of Old Trail Road (Lower Huntington to Bella Vista Blvd)
+    event: Full closure of Old Trail Road (Lower Huntington to Bella Vista Blvd) — complete
   - date: Through mid-May
     event: Gas main work at Ferguson & Bluffton Road intersection — complete
+  - date: June 2026
+    event: Project complete — all closures and restrictions ended
   links:
   - label: Waynedale News — Feb 2026
     url: https://waynedalenews.com/2026/02/the-waynedale-community-navigates-bluffton-road-construction/
