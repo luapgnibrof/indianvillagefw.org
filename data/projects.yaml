@@ -43,6 +43,8 @@ projects:
     url: https://engage.cityoffortwayne.org/bluffton-road-bridge
   - label: Waynedale News Coverage
     url: https://waynedalenews.com/?s=bluffton+road+bridge
+  - label: Ribbon Cutting (21Alive)
+    url: https://www.21alivenews.com/2026/06/17/fort-wayne-holds-ribbon-cutting-open-bluffton-road-bridge/
 - name: Bluffton Road NIPSCO Gas Pipeline
   slug: bluffton-nipsco
   status: active
